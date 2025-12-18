@@ -16,9 +16,9 @@ export default function TechStack() {
         <div className="flex flex-wrap gap-y-3">
           {/* Design */}
           <div className="mr-10 flex items-center gap-3">
-            <h4 className="font-semibold text-lg bg-zinc-200/70 px-4 py-2 inline-block rounded">
+            <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Design
-            </h4>
+            </h5>
 
             <Tooltip
               tooltiptext="Figma"
@@ -35,9 +35,9 @@ export default function TechStack() {
 
           {/* Development */}
           <div className="mr-10 flex items-center gap-3">
-            <h4 className="font-semibold text-lg bg-zinc-200/70 px-4 py-2 inline-block rounded">
+            <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Development
-            </h4>
+            </h5>
 
             <Tooltip
               tooltiptext="HTML5"
@@ -58,12 +58,6 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="Next.js"
-              imageSrc="/tech-stack-nextjs.svg"
-              altText="Next.js"
-            />
-
-            <Tooltip
               tooltiptext="React"
               imageSrc="/tech-stack-react.svg"
               altText="React"
@@ -78,9 +72,9 @@ export default function TechStack() {
 
           {/* Tools */}
           <div className="mr-10 flex items-center gap-3">
-            <h4 className="font-semibold text-lg bg-zinc-200/70 px-4 py-2 inline-block rounded">
+            <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Tools
-            </h4>
+            </h5>
 
             <Tooltip
               tooltiptext="Google Analytics"
@@ -104,6 +98,12 @@ export default function TechStack() {
               tooltiptext="Vercel"
               imageSrc="/tech-stack-vercel.svg"
               altText="Vercel"
+            />
+
+            <Tooltip
+              tooltiptext="Next.js"
+              imageSrc="/tech-stack-nextjs.svg"
+              altText="Next.js"
             />
 
             <Tooltip

@@ -24,7 +24,7 @@ export default function HomepageIntro() {
   }, [words.length]);
 
   return (
-    <section className="bg-zinc-800">
+    <section className="bg-stone-800">
       <Logo />
 
       {/* Intro animation */}
@@ -39,14 +39,14 @@ export default function HomepageIntro() {
             <Image
               priority={true}
               src="/jetsetter.jpg"
-              alt="Jethro Edwards is walking in nature"
+              alt="Jethro Edwards surrounded by nature"
               width={524}
               height={524}
-              className="rounded-lg shadow-xl border-2 border-zinc-700"
+              className="rounded-lg shadow-xl border-2 border-stone-700"
             />
           </motion.div>
           <motion.div
-            className="bg-zinc-700/50 border-2 border-red-700 -mt-20 px-8 pb-10 pt-32 md:mt-0 md:w-200 md:py-22 md:px-20 md:pl-50 md:-ml-40"
+            className="bg-stone-700/50 border-2 border-red-700 -mt-20 px-8 pb-10 pt-32 md:mt-0 md:w-200 md:py-22 md:px-20 md:pl-50 md:-ml-40"
             initial={{ opacity: 0, x: 150 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease: "backOut" }}
@@ -58,25 +58,25 @@ export default function HomepageIntro() {
               alt="About me"
               className="mb-8"
             />
-            <p className=" text-white text-lg mb-7">
+            <p className="text-white mb-7">
               With over 20 years of experience I have contributed from small,
               independent operations to leading a UX design team within a
               corporate environment.
             </p>
 
-            <p className=" text-white text-lg mb-7">
+            <p className=" text-white mb-7">
               I consider myself a problem solver at the core as I enjoy turning
               obstacles into simple and intuitive designs. I have also built up
               a good front-end development skill set to bring designs to life on
               the web.
             </p>
 
-            <p className=" text-white text-lg mb-10">
+            <p className=" text-white mb-10">
               I thrive in lead roles and am quite comfortable working from
               concept to completion on projects.
             </p>
 
-            <div className="px-6 py-4 border-2 border-zinc-700 bg-zinc-800 rounded-lg flex items-center gap-4">
+            <div className="px-6 py-4 border-2 border-stone-700 bg-stone-800 rounded-lg flex items-center gap-4">
               {/* heart-shaped icon */}
               <svg
                 width="24"

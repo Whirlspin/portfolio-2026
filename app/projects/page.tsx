@@ -1,36 +1,59 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../components/logo";
 import { ProjectListing } from "./project-listing";
 import Footer from "../components/footer";
+import { useState } from "react";
 
-export const metadata: Metadata = {
-  title: "My projects",
-  description: "A selection of work I've done spanning over 2 decades.",
-};
+const categoryNav = ["All", "UI/UX", "WordPress", "Design"];
 
 export default function Projects() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredCategory = ProjectListing.filter(
+    (category) =>
+      activeCategory === "All" || category.category === activeCategory
+  );
+
   return (
     <>
       <Logo />
-      <div className="container mx-auto max-w-7xl px-3 mb-28">
-        <header className="space-y-6 mb-10">
+      <div className="container mx-auto max-w-7xl px-3 mb-28 mt-8">
+        <header className="space-y-6 mb-20">
           <Image
             className="mx-auto"
-            src="/projects/text-all-projects.svg"
+            src="/projects/text-projects.svg"
             width={314}
             height={43}
             alt="All projects"
           />
-          <h2 className="text-lg font-medium text-center md:max-w-3/6 mx-auto">
+          <h2 className="text-black! text-lg! leading-7! font-normal! text-center md:max-w-3/6 mx-auto">
             From 'design-and-build' WordPress websites to user-tested UI's and
-            data-driven SaaS dashboards that customers love using.
+            data-driven SaaS dashboards that customers love using. All my own
+            work unless otherwise stated.
           </h2>
+
+          <div className="flex justify-center gap-4">
+            {categoryNav.map((category, key) => (
+              <button
+                key={key}
+                className={`text-lg font-medium px-4 py-2 rounded ${
+                  activeCategory === category
+                    ? "bg-red-700 border border-red-700 text-white"
+                    : "bg-white text-red-700 border border-red-700 hover:bg-red-700 hover:text-white transition-colors duration-300 cursor-pointer"
+                }`}
+                onClick={() => setActiveCategory(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
         </header>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {ProjectListing.map((project, key) => (
+          {filteredCategory.map((project, key) => (
             <div key={key} className="mx-auto group">
               <Link href={project.href}>
                 <div className="relative rounded">
@@ -42,15 +65,25 @@ export default function Projects() {
                     className="border border-zinc-200 mb-3 rounded"
                   />
                   <div className="w-full h-full group-hover:bg-black/60 absolute top-0 left-0 p-6 flex items-center group-hover:backdrop-blur-xs rounded transition-all duration-600">
-                    <h6 className="opacity-0 group-hover:opacity-100 text-white font-medium text-center transition-all duration-600">
-                      {project.description}
-                    </h6>
+                    <div className=" w-full opacity-0 group-hover:opacity-100 text-white font-medium transition-all duration-600 flex flex-col gap-4">
+                      <h5 className="text-white! uppercase text-center text-lg! mb-0">
+                        Details
+                      </h5>
+                      <hr className="text-white/60" />
+                      <ul className="list-disc ml-6 font-normal space-y-1">
+                        {project.description.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <h4 className="text-lg font-semibold text-zinc-500 group-hover:text-red-700 transition-colors duration-600">
+                <h5 className=" group-hover:text-red-700! transition-colors duration-600">
                   {project.client}
-                </h4>
-                <h3 className="text-xl font-bold">{project.title}</h3>
+                </h5>
+                <h3 className="text-xl! font-semibold! leading-6! text-black!">
+                  {project.title}
+                </h3>
               </Link>
             </div>
           ))}
