@@ -36,7 +36,7 @@ export const ProjectListing = [
       "Manage & delegate work among team members",
       "Interactive prototype in UXPin",
     ],
-    href: "/gia-agency",
+    href: "",
     category: "UI/UX",
   },
   {
@@ -63,7 +63,7 @@ export const ProjectListing = [
       "WooCommerce integration",
       "E-mail marketing (Mailchimp)",
     ],
-    href: "/gia-agency",
+    href: "projects/giftalot-africa",
     category: "WordPress",
   },
   {

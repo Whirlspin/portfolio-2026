@@ -62,9 +62,9 @@ export default function Projects() {
                     width={416}
                     height={300}
                     alt={project.title}
-                    className="border border-zinc-200 mb-3 rounded"
+                    className="border border-zinc-200 mb-3 rounded scale-100 group-hover:scale-105 transition-transform duration-600"
                   />
-                  <div className="w-full h-full group-hover:bg-black/60 absolute top-0 left-0 p-6 flex items-center group-hover:backdrop-blur-xs rounded transition-all duration-600">
+                  {/* <div className="w-full h-full group-hover:bg-black/60 absolute top-0 left-0 p-6 flex items-center group-hover:backdrop-blur-xs rounded transition-all duration-600">
                     <div className=" w-full opacity-0 group-hover:opacity-100 text-white font-medium transition-all duration-600 flex flex-col gap-4">
                       <h5 className="text-white! uppercase text-center text-lg! mb-0">
                         Details
@@ -76,7 +76,7 @@ export default function Projects() {
                         ))}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <h5 className=" group-hover:text-red-700! transition-colors duration-600">
                   {project.client}

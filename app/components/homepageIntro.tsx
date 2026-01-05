@@ -1,6 +1,5 @@
 "use client";
 
-// import * as motion from "motion/react-client";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "motion/react";
@@ -29,9 +28,9 @@ export default function HomepageIntro() {
 
       {/* Intro animation */}
       <div className="px-3 pt-20 pb-48">
-        <div className="container mx-auto max-w-6xl md:flex items-center ">
+        <div className="container mx-auto lg:max-w-6xl lg:flex items-center">
           <motion.div
-            className="relative z-50 px-12 md:px-0 md:w-1/2"
+            className="relative z-50 px-12 lg:px-0 lg:w-1/2 flex justify-center"
             initial={{ opacity: 0, x: -150 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease: "backOut" }}
@@ -46,7 +45,7 @@ export default function HomepageIntro() {
             />
           </motion.div>
           <motion.div
-            className="bg-stone-700/50 border-2 border-red-700 -mt-20 px-8 pb-10 pt-32 md:mt-0 md:w-200 md:py-22 md:px-20 md:pl-50 md:-ml-40"
+            className="bg-stone-700/50 border-2 border-red-700 -mt-20 px-8 pb-10 pt-32 lg:mt-0 lg:w-200 lg:py-22 lg:px-20 lg:pl-50 lg:-ml-40"
             initial={{ opacity: 0, x: 150 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5, ease: "backOut" }}
@@ -91,8 +90,8 @@ export default function HomepageIntro() {
                 />
               </svg>
               <AnimatePresence mode="wait">
-                <motion.h6
-                  className="font-medium text-white text-lg"
+                <motion.h5
+                  className="text-white! text-lg!"
                   key={words[index]}
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -104,7 +103,7 @@ export default function HomepageIntro() {
                   }}
                 >
                   {words[index]}
-                </motion.h6>
+                </motion.h5>
               </AnimatePresence>
             </div>
           </motion.div>

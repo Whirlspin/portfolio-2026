@@ -58,6 +58,12 @@ export default function TechStack() {
             />
 
             <Tooltip
+              tooltiptext="VS Code"
+              imageSrc="/tech-stack-vscode.svg"
+              altText="VS Code"
+            />
+
+            <Tooltip
               tooltiptext="React"
               imageSrc="/tech-stack-react.svg"
               altText="React"
@@ -89,9 +95,9 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="VS Code"
-              imageSrc="/tech-stack-vscode.svg"
-              altText="VS Code"
+              tooltiptext="Hostinger"
+              imageSrc="/tech-stack-hostinger.svg"
+              altText="Hostinger"
             />
 
             <Tooltip

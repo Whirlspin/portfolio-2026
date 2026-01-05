@@ -14,7 +14,7 @@ export default function Contact() {
               alt="Contact me"
               className="mb-6"
             />
-            <h5 className="text-lg mb-8">
+            <h5 className="text-black mb-8">
               I'm always open to discussing new projects or collaborations. Feel
               free to reach out.
             </h5>
