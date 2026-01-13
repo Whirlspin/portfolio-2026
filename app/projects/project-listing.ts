@@ -1,0 +1,220 @@
+export const ProjectListing = [
+  {
+    client: "inQuba",
+    title: "Customer journey management software",
+    image: "/projects/projects-inquba-journey-management.webp",
+    description: [
+      "Design all UI components from scratch",
+      "Build interactive prototypes that emulate the end product in Adobe XD & Figma",
+      "UX best practice techniques",
+      "HTML & CSS working prototypes",
+      "Style guide",
+    ],
+    href: "projects/inquba",
+    category: "UI/UX",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Headless CMS for ThinkTank",
+    image: "/projects/projects-multichoice-thinktank-mobile.webp",
+    description: [
+      "3D design",
+      "UI design",
+      "HTML & CSS",
+      "Print & logo design",
+      "WordPress custom theme",
+    ],
+    href: "projects/multichoice-thinktank",
+    category: "WordPress",
+  },
+
+  {
+    client: "Go.Compare",
+    title: "Design system for all insurance question sets",
+    image: "/projects/projects-goco-design-system.webp",
+    description: [
+      "Build a comprehensive design system from scratch",
+      "Extend Figma's styles to component patterns with on & off switches",
+      "Ensure consistency across desktop, tablet & mobile views",
+    ],
+    href: "projects/gocompare-design-system",
+    category: "UI/UX",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Self service mobile application",
+    image: "/projects/projects-multichoice-self-service-mobile-app.webp",
+    description: [
+      "Wireframing mobile app screens",
+      "UI design for user flows",
+      "Manage & delegate work among team members",
+      "Interactive prototype in UXPin",
+    ],
+    href: "projects/multichoice-mobile-app",
+    category: "UI/UX",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Department style guide",
+    image: "/projects/projects-multichoice-styleguide.webp",
+    description: [
+      "Creative concept",
+      "UI design",
+      "Copywriting",
+      "HTML5 & CSS (Bootstrap)",
+    ],
+    href: "projects/multichoice-style-guide",
+    category: "Design",
+  },
+
+  {
+    client: "Freelance",
+    title: "Infinite Grace. A full turnkey solution.",
+    image: "/projects/projects-infinitegrace.webp",
+    description: [
+      "Strategy & planning",
+      "Logo design",
+      "Digital design",
+      "E-mail marketing (MailChimp)",
+      "WordPress & hosting",
+    ],
+    href: "projects/infinite-grace",
+    category: "WordPress",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Landing and login pages",
+    image: "/projects/projects-multichoice-webportal-tablet.webp",
+    description: [
+      "UI design for landing & login pages",
+      "Brand (logo) identity",
+      "3D design elements",
+      "HTML5, CSS (Bootstrap) & jQuery",
+    ],
+    href: "projects/multichoice-landing-login-pages",
+    category: "Design",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "DStv Self Service website redesign",
+    image: "/projects/projects-dstv-redesign.webp",
+    description: [
+      "Information architecture",
+      "Wireframes",
+      "UI design",
+      "Manage tasks among team members",
+      "Research gathering",
+      "Quantitative insights",
+    ],
+    href: "projects/multichoice-dstv-website-redesign",
+    category: "UI/UX",
+  },
+
+  {
+    client: "inQuba",
+    title: "Dynamic dialogues ideation exercise",
+    image: "/projects/projects-inquba-dynamic-dialogues.webp",
+    description: [
+      "Low and high fidelity designs",
+      "Many iterations",
+      "Validate UI designs with stakeholders and iterate again",
+    ],
+    href: "projects/inquba-dynamic-dialogues",
+    category: "UI/UX",
+  },
+
+  {
+    client: "Freelance",
+    title: "Giftalot Africa. eCommerce WordPress website",
+    image: "/projects/projects-giftalot.webp",
+    description: [
+      "Website design and branding",
+      "All product shot photography",
+      "WordPress development",
+      "WooCommerce integration",
+      "E-mail marketing (Mailchimp)",
+    ],
+    href: "projects/giftalot-africa",
+    category: "WordPress",
+  },
+
+  {
+    client: "Go.Compare",
+    title: "Email settings with the 'Preference Centre'",
+    image: "/projects/projects-goco-preference-centre.webp",
+    description: [
+      "Low & high fidelity designs",
+      "Interactive prototype in Figma",
+      "Examine, plot and refine the user journey",
+    ],
+    href: "projects/gocompare-preference-centre",
+    category: "UI/UX",
+  },
+  {
+    client: "Go.Compare",
+    title: "Home insurance question set",
+    image: "/projects/projects-goco-home-journey.webp",
+    description: [
+      "Competitor research",
+      "Update the insurance journey's design style to Go.Compare's latest version",
+    ],
+    href: "projects/gocompare-home-insurance",
+    category: "UI/UX",
+  },
+
+  {
+    client: "Freelance",
+    title: "Definitia Africa. Website design & WordPress",
+    image: "/projects/projects-definitia-africa.webp",
+    description: [
+      "Website design",
+      "Photoshop work",
+      "Logo design",
+      "WordPress",
+    ],
+    href: "projects/definitia-africa",
+    category: "WordPress",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Creative design for iConnect Africa",
+    image: "/projects/projects-multichoice-iconnect.webp",
+    description: ["Concept", "Photoshop design"],
+    href: "projects/multichoice-iconnect-africa",
+    category: "Design",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Reducing errors & failures on MultiChoice Africa platforms",
+    image: "/projects/projects-multichoice-reducing-errors.webp",
+    description: [
+      "User research",
+      "UX strategy & design",
+      "Information architecture",
+      "Usability testing",
+    ],
+    href: "projects/multichoice-reducing-errors",
+    category: "UI/UX",
+  },
+
+  {
+    client: "Freelance",
+    title: "Valverde Country Hotel",
+    image: "/projects/projects-valverde.webp",
+    description: [
+      "Website & logo design",
+      "Photoshop work",
+      "WordPress theming (custom theme)",
+      "E-mail marketing (MailChimp)",
+    ],
+    href: "projects/valverde-country-hotel",
+    category: "WordPress",
+  },
+];
