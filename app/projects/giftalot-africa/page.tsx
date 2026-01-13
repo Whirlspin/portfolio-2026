@@ -65,7 +65,7 @@ export default function giftalotAfrica() {
           </div>
         </div>
         <div className="flex align-center justify-center my-28">
-          <blockquote class="twitter-tweet">
+          <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Who says you need a fancy studio to achieve quality product shots?{" "}
               <a href="https://twitter.com/hashtag/homestudio?src=hash&amp;ref_src=twsrc%5Etfw">
@@ -81,7 +81,7 @@ export default function giftalotAfrica() {
           <script
             async
             src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
+            charSet="utf-8"
           ></script>
         </div>
       </div>
