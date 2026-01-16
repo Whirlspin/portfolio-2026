@@ -33,8 +33,9 @@ export default function giftalotAfrica() {
         </p>
         <h3>Freelance work</h3>
         <p>
-          All photography • Web design • Corporate branding • E-mail marketing •
-          Web hosting
+          All photography • Web design • Corporate branding • WordPress
+          (BeTheme) • E-mail marketing (Mailchimp) • Domain, E-mail & hosting •
+          SEO basics
         </p>
         <div className="flex flex-row flex-wrap gap-9">
           <div className="flex flex-row items-center gap-3">

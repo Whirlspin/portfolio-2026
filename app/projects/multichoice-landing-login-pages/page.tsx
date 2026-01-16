@@ -99,7 +99,7 @@ export default function multichoiceLandingLoginPages() {
         alt="Multichoice web portal mega dealer"
         width={1812}
         height={1100}
-        className="w-full h-auto"
+        className="w-full h-auto border-t-stone-200 border-t"
       />
 
       <Image

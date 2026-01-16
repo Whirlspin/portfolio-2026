@@ -39,8 +39,8 @@ export default function definitiaAfrica() {
 
         <h3>Freelance work</h3>
         <p className="pb-5">
-          Website design • Photoshop • Logo design • WordPress build • BeTheme
-          (WordPress theme) • SEO basics
+          Website design • Photoshop • Logo design • WordPress (BeTheme) •
+          Domain, E-mail & hosting • SEO basics
         </p>
       </div>
 

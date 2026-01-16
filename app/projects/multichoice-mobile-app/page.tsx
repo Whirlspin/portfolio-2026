@@ -22,7 +22,7 @@ export default function multichoiceMobileApp() {
         subheading="MultiChoice"
         heading="Self service mobile application"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="MultiChoice: Self service mobile application" />
         <h3>Customers spoke, we listened</h3>
         <p>
@@ -50,7 +50,7 @@ export default function multichoiceMobileApp() {
             />
           </div>
         </div>
-      </div>
+      </main>
 
       <section className="bg-[#6C757C] pt-28 w-full">
         <Image

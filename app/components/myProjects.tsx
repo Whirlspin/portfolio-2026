@@ -86,7 +86,7 @@ export default function MyProjects() {
           <div className="group bg-[url(/homepage-multichoice-styleguide.webp)] bg-center bg-cover rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
-              href="/projects"
+              href="/projects/multichoice-style-guide"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-100! mb-1">

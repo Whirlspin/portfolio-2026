@@ -2,7 +2,7 @@ export const ProjectListing = [
   {
     client: "inQuba",
     title: "Customer journey management software",
-    image: "/projects/inquba-journey-management.png",
+    image: "/projects/projects-inquba-journey-management.webp",
     description: [
       "Design all UI components from scratch",
       "Build interactive prototypes that emulate the end product in Adobe XD & Figma",
@@ -17,7 +17,7 @@ export const ProjectListing = [
   {
     client: "Go.Compare",
     title: "Design system for all insurance question sets",
-    image: "/projects/goco-design-system.png",
+    image: "/projects/projects-goco-design-system.webp",
     description: [
       "Build a comprehensive design system from scratch",
       "Extend Figma's styles to component patterns with on & off switches",
@@ -29,7 +29,7 @@ export const ProjectListing = [
   {
     client: "MultiChoice",
     title: "Self service mobile application",
-    image: "/projects/multichoice-self-service-mobile-app.png",
+    image: "/projects/projects-multichoice-self-service-mobile-app.webp",
     description: [
       "Wireframing mobile app screens",
       "UI design for user flows",
@@ -39,23 +39,10 @@ export const ProjectListing = [
     href: "projects/multichoice-mobile-app",
     category: "UI/UX",
   },
-  // {
-  //   client: "Agency work",
-  //   title: "Find the bunny Easter campaign",
-  //   image: "/projects/freelance-emperors-golden-bunny.png",
-  //   description: [
-  //     "Concept design",
-  //     "Photoshop manipulation",
-  //     "3D design & animation",
-  //     "Motion graphics",
-  //   ],
-  //   href: "",
-  //   category: "Design",
-  // },
   {
     client: "Freelance",
     title: "Giftalot Africa. eCommerce WordPress website",
-    image: "/projects/giftalot.png",
+    image: "/projects/projects-giftalot.webp",
     description: [
       "Website design and branding",
       "All product shot photography",
@@ -69,7 +56,7 @@ export const ProjectListing = [
   {
     client: "MultiChoice",
     title: "DStv Self Service website redesign",
-    image: "/projects/dstv-redesign.png",
+    image: "/projects/projects-dstv-redesign.webp",
     description: [
       "Information architecture",
       "Wireframes",
@@ -84,7 +71,7 @@ export const ProjectListing = [
   {
     client: "inQuba",
     title: "Dynamic dialogues ideation exercise",
-    image: "/projects/inquba-dynamic-dialogues.png",
+    image: "/projects/projects-inquba-dynamic-dialogues.webp",
     description: [
       "Low and high fidelity designs",
       "Many iterations",
@@ -96,7 +83,7 @@ export const ProjectListing = [
   {
     client: "Go.Compare",
     title: "Email settings with the 'Preference Centre'",
-    image: "/projects/goco-preference-centre.png",
+    image: "/projects/projects-goco-preference-centre.webp",
     description: [
       "Low & high fidelity designs",
       "Interactive prototype in Figma",
@@ -108,7 +95,7 @@ export const ProjectListing = [
   {
     client: "Go.Compare",
     title: "Home insurance question set",
-    image: "/projects/goco-home-journey.png",
+    image: "/projects/projects-goco-home-journey.webp",
     description: [
       "Competitor research",
       "Update the insurance journey's design style to Go.Compare's latest version",
@@ -119,7 +106,7 @@ export const ProjectListing = [
   {
     client: "MultiChoice",
     title: "Landing and login pages",
-    image: "/projects/multichoice-webportal-tablet.png",
+    image: "/projects/projects-multichoice-webportal-tablet.webp",
     description: [
       "UI design for landing & login pages",
       "Brand (logo) identity",
@@ -129,10 +116,11 @@ export const ProjectListing = [
     href: "projects/multichoice-landing-login-pages",
     category: "Design",
   },
+
   {
     client: "Freelance",
     title: "Infinite Grace. A full turnkey solution.",
-    image: "/projects/infinite-grace-ybk.png",
+    image: "/projects/projects-infinitegrace.webp",
     description: [
       "Strategy & planning",
       "Logo design",
@@ -147,46 +135,46 @@ export const ProjectListing = [
   {
     client: "MultiChoice",
     title: "Creative design for iConnect Africa",
-    image: "/projects/multichoice-iconnect.png",
+    image: "/projects/projects-multichoice-iconnect.webp",
     description: [
       "Creative design",
       "Photoshop manipulation work",
       "UI design",
       "Logo design",
     ],
-    href: "projects/multichoice-iconnect",
+    href: "projects/multichoice-iconnect-africa",
     category: "Design",
   },
   {
     client: "MultiChoice",
     title: "Department style guide",
-    image: "/projects/multichoice-styleguide.png",
+    image: "/projects/projects-multichoice-styleguide.webp",
     description: [
       "Creative concept",
       "UI design",
       "Copywriting",
       "HTML5 & CSS (Bootstrap)",
     ],
-    href: "projects/multichoice-styleguide",
+    href: "projects/multichoice-style-guide",
     category: "Design",
   },
   {
     client: "MultiChoice",
-    title: "Win a DStv decoder. Web and poster campaign",
-    image: "/projects/multichoice-qr-code.png",
+    title: "Win an Explora. Web and poster campaign",
+    image: "/projects/projects-multichoice-qr-code.webp",
     description: [
       "Concept",
       "3D graphic image",
       "Mobile design",
       "Poster design",
     ],
-    href: "projects/multichoice-qr-code",
+    href: "projects/multichoice-win-an-explora",
     category: "Design",
   },
   {
     client: "Freelance",
     title: "Definitia Africa. Website design & WordPress",
-    image: "/projects/definitia-africa.png",
+    image: "/projects/projects-definitia-africa.webp",
     description: [
       "Website design",
       "Photoshop work",
@@ -200,20 +188,20 @@ export const ProjectListing = [
   {
     client: "MultiChoice",
     title: "Reducing errors & failures on MultiChoice Africa platforms",
-    image: "/projects/multichoice-reducing-errors.png",
+    image: "/projects/projects-multichoice-reducing-errors.webp",
     description: [
       "User research",
       "UX strategy & design",
       "Information architecture",
       "Usability testing",
     ],
-    href: "",
+    href: "projects/multichoice-reducing-errors",
     category: "UI/UX",
   },
   {
     client: "MultiChoice",
     title: "Headless CMS for ThinkTank",
-    image: "/projects/multichoice-thinktank-mobile.png",
+    image: "/projects/projects-multichoice-thinktank-mobile.webp",
     description: [
       "3D design",
       "UI design",
@@ -224,85 +212,31 @@ export const ProjectListing = [
     href: "projects/multichoice-thinktank",
     category: "WordPress",
   },
-  {
-    client: "MultiChoice",
-    title: "Creative design for 'Commoncents - it just makes sense'",
-    image: "/projects/multichoice-commoncents.png",
-    description: [
-      "Creative design",
-      "3D design in Autodesk Maya",
-      "Photoshop manipulation",
-      "Logo design",
-    ],
+  // {
+  //   client: "MultiChoice",
+  //   title: "Creative design for 'Commoncents - it just makes sense'",
+  //   image: "/projects/projects-multichoice-commoncents.webp",
+  //   description: [
+  //     "Creative design",
+  //     "3D design in Autodesk Maya",
+  //     "Photoshop manipulation",
+  //     "Logo design",
+  //   ],
 
-    href: "projects/multichoice-commoncents",
-    category: "Design",
-  },
-  {
-    client: "Freelance",
-    title: "My showreel & 3D renders",
-    image: "/projects/punctu8-showreel.png",
-    description: ["3D design & animation", "Motion graphics"],
-    href: "projects/my-showreel",
-    category: "Design",
-  },
+  //   href: "projects/multichoice-common-cents",
+  //   category: "Design",
+  // },
   {
     client: "Freelance",
     title: "Valverde Country Hotel",
-    image: "/projects/valverde.png",
+    image: "/projects/projects-valverde.webp",
     description: [
       "Website & logo design",
       "Photoshop work",
-      "WordPress theming",
+      "WordPress theming (custom theme)",
       "E-mail marketing (MailChimp)",
     ],
     href: "projects/valverde-country-hotel",
     category: "WordPress",
   },
-
-  // {
-  //   client: "Agency work",
-  //   title: "Samsung Mobile",
-  //   image: "/projects/samsung.png",
-  //   description: [
-  //     "Original design",
-  //     "3D design & animation",
-  //     "E-mail marketing design",
-  //   ],
-  //   href: "projects/",
-  //   category: "Design",
-  // },
-  // {
-  //   client: "MultiChoice",
-  //   title: "SMA Dealer",
-  //   image: "/projects/multichoice-sma-dealer.png",
-  //   description: [
-  //     "UI design",
-  //     "Mobile application design",
-  //     "Icon set",
-  //     "WAP for feature phones",
-  //   ],
-  //   href: "projects/",
-  //   category: "UI/UX",
-  // },
-  // {
-  //   client: "Freelance",
-  //   title: "Stratcom",
-  //   image: "/projects/stratcom.png",
-  //   description: [
-  //     "3D design elements",
-  //     "HTML5, CSS & jQuery",
-  //     "Collaboration with developer",
-  //   ],
-  //   href: "projects/",
-  //   category: "Design",
-  // },
-  // {
-  //   client: "Freelance",
-  //   title: "Writing on the Wall",
-  //   image: "/projects/writing-wall.png",
-  //   description: ["3D visualisations", "WordPress website"],
-  //   href: "projects/",
-  //   category: "WordPress",
-  // },
 ];

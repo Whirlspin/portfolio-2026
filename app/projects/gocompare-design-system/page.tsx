@@ -23,7 +23,7 @@ export default function goCompareDesignSystem() {
         heading="Design system for all insurance question sets"
       />
       {/* Introduction  */}
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Design system" />
         <h3>Summary</h3>
         <p>
@@ -67,7 +67,7 @@ export default function goCompareDesignSystem() {
             />
           </div>
         </div>
-      </section>
+      </main>
 
       {/* Atomic design  */}
       <section
