@@ -75,7 +75,7 @@ export default function HomepageIntro() {
               concept to completion on projects.
             </p>
 
-            <div className="px-6 py-4 border-2 border-stone-700 bg-stone-800 rounded-lg flex items-center gap-4">
+            <div className="px-6 py-4 border-2 h-20 sm:h-auto border-stone-700 bg-stone-800 rounded-lg flex items-center gap-4">
               {/* heart-shaped icon */}
               <svg
                 width="24"

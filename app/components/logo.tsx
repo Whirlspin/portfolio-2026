@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Logo() {
   return (
-    <Link className="inline-block relative z-10" id="top" href="/">
+    <Link className="inline-block relative z-10" id="top" href="/" title="Home">
       <svg
         width="117"
         height="83"

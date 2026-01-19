@@ -40,7 +40,7 @@ export default function ParallaxHeader({
         style={{ y }}
       >
         <h2>{subheading}</h2>
-        <h1>{heading}</h1>
+        <h1 className="text-6xl! sm:text-7xl!">{heading}</h1>
       </motion.div>
     </div>
   );

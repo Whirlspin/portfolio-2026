@@ -10,7 +10,7 @@ export default function CategoryListingFooter({
   categoryChoose,
 }: CategoryListingFooterProps) {
   return (
-    <section className="container mx-auto max-w-7xl px-3 mb-28">
+    <section className="container mx-auto max-w-7xl px-6 mb-28">
       <hr className="bg-stone-200 h-0.5 border-0 mb-28" />
 
       {/* More like this title */}
@@ -24,7 +24,7 @@ export default function CategoryListingFooter({
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {ProjectListing.filter(
-          (project) => project.category === categoryChoose
+          (project) => project.category === categoryChoose,
         ).map((project) => (
           <div key={project.href} className="group">
             <Link href={`/${project.href}`}>

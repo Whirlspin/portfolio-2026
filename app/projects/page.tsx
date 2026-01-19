@@ -14,7 +14,7 @@ export default function Projects() {
 
   const filteredCategory = ProjectListing.filter(
     (category) =>
-      activeCategory === "All" || category.category === activeCategory
+      activeCategory === "All" || category.category === activeCategory,
   );
 
   return (
@@ -35,11 +35,11 @@ export default function Projects() {
             unless otherwise stated.
           </h2>
 
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-3 sm:gap-4">
             {categoryNav.map((category, key) => (
               <button
                 key={key}
-                className={`text-lg font-medium px-4 py-2 rounded ${
+                className={`text-base sm:text-lg font-medium px-4 py-2 rounded ${
                   activeCategory === category
                     ? "bg-red-700 border border-red-700 text-white"
                     : "bg-white text-red-700 border border-red-700 hover:bg-red-700 hover:text-white transition-colors duration-300 cursor-pointer"

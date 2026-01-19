@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 export default function MyProjects() {
   return (
     <motion.section
-      className="w-full my-36 px-3"
+      className="w-full my-36 px-6"
       initial={{ opacity: 0, y: 48, filter: "blur(20px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 0.7, ease: "easeOut" }}
@@ -43,7 +43,7 @@ export default function MyProjects() {
           {/* inQuba  */}
           <div className="group bg-[url(/homepage-inquba.webp)] bg-center bg-cover border border-stone-300 lg:col-span-2 lg:row-span-2 rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/20 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/inquba"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
@@ -64,7 +64,7 @@ export default function MyProjects() {
           {/* Design system for Go.Compare */}
           <div className="group bg-[url(/homepage-design-system.webp)] bg-center bg-cover lg:col-span-2 rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-black/0 to-black/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-black/0 to-black/40 group-hover:bg-stone-500/40 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/gocompare-design-system"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
@@ -75,9 +75,9 @@ export default function MyProjects() {
                   Design system
                 </h5>
                 <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  Build all UI elements from scratch • Extend Figma's styles to
-                  component patterns with on/off switches • Build
-                  interchangeable assets between devices
+                  Build all UI elements • Extend Figma's styles to component
+                  patterns with on/off switches • Build interchangeable assets
+                  between devices
                 </p>
               </div>
             </Link>
@@ -106,14 +106,14 @@ export default function MyProjects() {
           {/* Infinite Grace */}
           <div className="group bg-[url(/homepage-infinite-grace.webp)] bg-top-left bg-cover rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/40 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/infinite-grace"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-100! mb-1">
-                  Freelance work
+                  Freelance
                 </h6>
-                <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-red-300! transition-all duration-600">
+                <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-violet-300! transition-all duration-600">
                   Infinite Grace
                 </h5>
                 <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
@@ -126,7 +126,7 @@ export default function MyProjects() {
           {/* MultiChoice landinging pages */}
           <div className="group bg-[url(/homepage-multichoice-laning-pages.webp)] bg-center bg-cover lg:col-span-2 rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-black/0 to-black/40 group-hover:bg-stone-500/40 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/multichoice-landing-login-pages"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
@@ -147,14 +147,14 @@ export default function MyProjects() {
           {/* MultiChoice mobile app */}
           <div className="group bg-[url(/homepage-multichoice-self-service-app.webp)] bg-center bg-cover border border-stone-300 lg:col-span-2 lg:row-span-2 rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/10 group-hover:bg-stone-600/60 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-600/60 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/multichoice-mobile-app"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-100! mb-1">
                   MultiChoice
                 </h6>
-                <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-indigo-400! transition-all duration-600">
+                <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-slate-400! transition-all duration-600">
                   Self service mobile app
                 </h5>
                 <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
@@ -168,7 +168,7 @@ export default function MyProjects() {
           {/* ThinkTank  */}
           <div className="group bg-[url(/homepage-thinktank.webp)] bg-center bg-cover rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-xs"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/40 transition-all duration-600 group-hover:backdrop-blur-xs"
               href="/projects/multichoice-thinktank"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
@@ -188,7 +188,7 @@ export default function MyProjects() {
           {/* Giftalot  */}
           <div className="group bg-[url(/homepage-giftalot.webp)] bg-center bg-cover rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/40 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/giftalot-africa"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">

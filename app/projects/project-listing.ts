@@ -192,20 +192,6 @@ export const ProjectListing = [
 
   {
     client: "MultiChoice",
-    title: "Win an Explora. Web and poster campaign",
-    image: "/projects/projects-multichoice-qr-code.webp",
-    description: [
-      "Concept",
-      "3D graphic image",
-      "Mobile design",
-      "Poster design",
-    ],
-    href: "projects/multichoice-win-an-explora",
-    category: "Design",
-  },
-
-  {
-    client: "MultiChoice",
     title: "Reducing errors & failures on MultiChoice Africa platforms",
     image: "/projects/projects-multichoice-reducing-errors.webp",
     description: [

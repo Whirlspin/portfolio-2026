@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 container mx-auto max-w-7xl flex items-center justify-between p-4 mb-36">
+    <footer className="relative z-10 container mx-auto max-w-7xl flex justify-between p-6 mb-36">
       {/* Footer links  */}
       <div className="gap-4 flex flex-col md:flex-row">
         <Link
@@ -40,7 +40,7 @@ export default function Footer() {
       </Link>
 
       {/* Social networks  */}
-      <div className="flex gap-x-3">
+      <div className="flex flex-col md:flex-row gap-3">
         {/* LinkedIn  */}
         <Link
           href="https://www.linkedin.com/in/jethroedwards/"

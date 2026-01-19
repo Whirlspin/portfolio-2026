@@ -44,8 +44,8 @@ export default function multichoiceIconnectAfrica() {
           height={310}
           className="md:w-8/12 mx-auto mb-16"
         />
-        <figcaption>
-          <h5 className="bg-stone-100 p-4">
+        <figcaption className="md:w-8/12 mx-auto">
+          <h5 className="bg-stone-100 p-4 text-center">
             The original cricket bat sourced from a Google search result.
             Cricket World Cup 2015 - see masthead image above for Photoshopped
             result.
