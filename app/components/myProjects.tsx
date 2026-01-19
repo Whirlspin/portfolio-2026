@@ -13,13 +13,13 @@ export default function MyProjects() {
       transition={{ duration: 0.7, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.1 }}
     >
-      <div className="container mx-auto max-w-7xl md:flex items-end">
+      <div className="container mx-auto max-w-7xl lg:flex items-end">
         <div className="flex-1">
           <Image
-            src="/text-my-projects.svg"
-            width={311}
+            src="/text-featured-work.svg"
+            width={373}
             height={41}
-            alt="My projects"
+            alt="Featured work"
             className="mb-4"
           />
           <p className="mb-0!">
@@ -27,7 +27,7 @@ export default function MyProjects() {
             user-tested interfaces that customers love to use.
           </p>
         </div>
-        <div className="flex-1 md:text-right align-bottom pb-4 pt-8">
+        <div className="flex-1 lg:text-right align-bottom pb-4 pt-8">
           <Link
             href="/projects"
             className="font-semibold text-4xl underline decoration-red-700 underline-offset-16 decoration-2 transition duration-300 hover:decoration-red-700/0 hover:text-red-700"
@@ -39,9 +39,9 @@ export default function MyProjects() {
 
       {/* Projects */}
       <div className="container mx-auto max-w-7xl pt-16">
-        <div className="grid md:grid-cols-4 grid-rows-[repeat(8,282px)] md:grid-rows-[repeat(4,282px)] gap-2">
+        <div className="grid lg:grid-cols-4 grid-rows-[repeat(8,282px)] lg:grid-rows-[repeat(4,282px)] gap-2">
           {/* inQuba  */}
-          <div className="group bg-[url(/homepage-inquba.webp)] bg-center bg-cover border border-stone-300 md:col-span-2 md:row-span-2 rounded-lg">
+          <div className="group bg-[url(/homepage-inquba.webp)] bg-center bg-cover border border-stone-300 lg:col-span-2 lg:row-span-2 rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/inquba"
@@ -62,7 +62,7 @@ export default function MyProjects() {
           </div>
 
           {/* Design system for Go.Compare */}
-          <div className="group bg-[url(/homepage-design-system.webp)] bg-center bg-cover md:col-span-2 rounded-lg">
+          <div className="group bg-[url(/homepage-design-system.webp)] bg-center bg-cover lg:col-span-2 rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-black/0 to-black/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/gocompare-design-system"
@@ -75,8 +75,9 @@ export default function MyProjects() {
                   Design system
                 </h5>
                 <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  Figma design system • On/off button switches • All components
-                  for insurance comparison journeys &rsaquo;
+                  Build all UI elements from scratch • Extend Figma's styles to
+                  component patterns with on/off switches • Build
+                  interchangeable assets between devices
                 </p>
               </div>
             </Link>
@@ -102,104 +103,103 @@ export default function MyProjects() {
             </Link>
           </div>
 
-          {/* Giftalot Africa */}
-          <div className="group bg-[url(/homepage-giftalot.webp)] bg-center bg-cover rounded-lg">
+          {/* Infinite Grace */}
+          <div className="group bg-[url(/homepage-infinite-grace.webp)] bg-top-left bg-cover rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
-              href="/projects/giftalot-africa"
+              href="/projects/infinite-grace"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-100! mb-1">
                   Freelance work
                 </h6>
                 <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-red-300! transition-all duration-600">
-                  Giftalot Africa
+                  Infinite Grace
                 </h5>
                 <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  'Design-and-build' WordPress eCommerce website &rsaquo;
+                  'Design-and-build' WordPress content publishing website
                 </p>
               </div>
             </Link>
           </div>
 
-          {/* inQuba dynamic dialogues */}
-          <div className="group bg-[url(/homepage-dynamic-dialogues.webp)] bg-center bg-cover md:col-span-2 rounded-lg">
+          {/* MultiChoice landinging pages */}
+          <div className="group bg-[url(/homepage-multichoice-laning-pages.webp)] bg-center bg-cover lg:col-span-2 rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
-              href="/projects/inquba-dynamic-dialogues"
+              href="/projects/multichoice-landing-login-pages"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
-                <h6 className="font-semibold! uppercase text-stone-900! mb-1">
-                  inQuba
+                <h6 className="font-semibold! uppercase text-stone-100! mb-1">
+                  MultiChoice
                 </h6>
-                <h5 className="text-black! text-2xl! font-bold! mb-3 group-hover:text-orange-600! transition-all duration-600">
-                  Dynamic dialogues
+                <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-teal-300! transition-all duration-600">
+                  Landing & login pages
                 </h5>
-                <p className="text-black! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  Low and high fidelity designs • Many iterations • Validate UI
-                  designs with stakeholders and iterate again &rsaquo;
+                <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                  Original design • Frontend development - HTML5, CSS
+                  (Bootstrap) & jQuery • Brand (logo) identity
                 </p>
               </div>
             </Link>
           </div>
 
           {/* MultiChoice mobile app */}
-          <div className="group bg-[url(/homepage-multichoice-self-service-app.webp)] bg-center bg-cover border border-stone-300 md:col-span-2 md:row-span-2 rounded-lg">
+          <div className="group bg-[url(/homepage-multichoice-self-service-app.webp)] bg-center bg-cover border border-stone-300 lg:col-span-2 lg:row-span-2 rounded-lg">
             <Link
-              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/10 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
+              className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/10 group-hover:bg-stone-600/60 transition-all duration-600 group-hover:backdrop-blur-sm"
               href="/projects/multichoice-mobile-app"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-100! mb-1">
                   MultiChoice
                 </h6>
-                <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-blue-300! transition-all duration-600">
+                <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-indigo-400! transition-all duration-600">
                   Self service mobile app
                 </h5>
                 <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  UX/UI design • Wireframes • Interactive prototype • Cross
-                  collaboration between teams
+                  Wireframing • UI design • Manage & delegate work among team
+                  members • Interactive prototype in UXPin
                 </p>
               </div>
             </Link>
           </div>
 
-          {/* Preference Centre  */}
-          <div className="group bg-[url(/homepage-preference-centre.webp)] bg-center bg-cover rounded-lg">
+          {/* ThinkTank  */}
+          <div className="group bg-[url(/homepage-thinktank.webp)] bg-center bg-cover rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-xs"
-              href="/projects/gocompare-preference-centre"
+              href="/projects/multichoice-thinktank"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="font-semibold! uppercase text-stone-50! mb-1">
-                  Go.Compare
+                  MultiChoice
                 </h6>
-                <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-green-400! transition-all duration-600">
-                  Preference Centre
+                <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-sky-300! transition-all duration-600">
+                  ThinkTank
                 </h5>
                 <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  Interactive prototype • Examine, plot and refine the user
-                  journey
+                  Headless CMS • WordPress custom theme
                 </p>
               </div>
             </Link>
           </div>
 
-          {/* MultiChoice self service redesign  */}
-          <div className="group bg-[url(/homepage-multichoice-redesign.webp)] bg-center bg-cover rounded-lg">
+          {/* Giftalot  */}
+          <div className="group bg-[url(/homepage-giftalot.webp)] bg-center bg-cover rounded-lg">
             <Link
               className="w-full p-6 h-full flex flex-col justify-end text-center rounded-lg bg-linear-to-b from-stone-950/0 to-stone-950/40 group-hover:bg-stone-500/30 transition-all duration-600 group-hover:backdrop-blur-sm"
-              href="/projects/multichoice-dstv-website-redesign"
+              href="/projects/giftalot-africa"
             >
               <div className="translate-y-18 group-hover:translate-y-0 transition-transform duration-600 mb-4">
                 <h6 className="text-stone-100! font-semibold! uppercase mb-1">
-                  MultiChoice
+                  Freelance
                 </h6>
-                <h5 className="text-white! text-2xl! font-bold! mb-2! group-hover:text-blue-300!  transition-all duration-600">
-                  Website redesign
+                <h5 className="text-white! text-2xl! font-bold! mb-2! group-hover:text-rose-300!  transition-all duration-600">
+                  Giftalot
                 </h5>
                 <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  UI design • Manage tasks among team members • Lots more...
+                  'Design-and-build' e-commerce WordPress website
                 </p>
               </div>
             </Link>

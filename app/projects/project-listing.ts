@@ -15,6 +15,21 @@ export const ProjectListing = [
   },
 
   {
+    client: "MultiChoice",
+    title: "Headless CMS for ThinkTank",
+    image: "/projects/projects-multichoice-thinktank-mobile.webp",
+    description: [
+      "3D design",
+      "UI design",
+      "HTML & CSS",
+      "Print & logo design",
+      "WordPress custom theme",
+    ],
+    href: "projects/multichoice-thinktank",
+    category: "WordPress",
+  },
+
+  {
     client: "Go.Compare",
     title: "Design system for all insurance question sets",
     image: "/projects/projects-goco-design-system.webp",
@@ -26,6 +41,7 @@ export const ProjectListing = [
     href: "projects/gocompare-design-system",
     category: "UI/UX",
   },
+
   {
     client: "MultiChoice",
     title: "Self service mobile application",
@@ -39,20 +55,50 @@ export const ProjectListing = [
     href: "projects/multichoice-mobile-app",
     category: "UI/UX",
   },
+
+  {
+    client: "MultiChoice",
+    title: "Department style guide",
+    image: "/projects/projects-multichoice-styleguide.webp",
+    description: [
+      "Creative concept",
+      "UI design",
+      "Copywriting",
+      "HTML5 & CSS (Bootstrap)",
+    ],
+    href: "projects/multichoice-style-guide",
+    category: "Design",
+  },
+
   {
     client: "Freelance",
-    title: "Giftalot Africa. eCommerce WordPress website",
-    image: "/projects/projects-giftalot.webp",
+    title: "Infinite Grace. A full turnkey solution.",
+    image: "/projects/projects-infinitegrace.webp",
     description: [
-      "Website design and branding",
-      "All product shot photography",
-      "WordPress development",
-      "WooCommerce integration",
-      "E-mail marketing (Mailchimp)",
+      "Strategy & planning",
+      "Logo design",
+      "Digital design",
+      "E-mail marketing (MailChimp)",
+      "WordPress & hosting",
     ],
-    href: "projects/giftalot-africa",
+    href: "projects/infinite-grace",
     category: "WordPress",
   },
+
+  {
+    client: "MultiChoice",
+    title: "Landing and login pages",
+    image: "/projects/projects-multichoice-webportal-tablet.webp",
+    description: [
+      "UI design for landing & login pages",
+      "Brand (logo) identity",
+      "3D design elements",
+      "HTML5, CSS (Bootstrap) & jQuery",
+    ],
+    href: "projects/multichoice-landing-login-pages",
+    category: "Design",
+  },
+
   {
     client: "MultiChoice",
     title: "DStv Self Service website redesign",
@@ -68,6 +114,7 @@ export const ProjectListing = [
     href: "projects/multichoice-dstv-website-redesign",
     category: "UI/UX",
   },
+
   {
     client: "inQuba",
     title: "Dynamic dialogues ideation exercise",
@@ -80,6 +127,22 @@ export const ProjectListing = [
     href: "projects/inquba-dynamic-dialogues",
     category: "UI/UX",
   },
+
+  {
+    client: "Freelance",
+    title: "Giftalot Africa. eCommerce WordPress website",
+    image: "/projects/projects-giftalot.webp",
+    description: [
+      "Website design and branding",
+      "All product shot photography",
+      "WordPress development",
+      "WooCommerce integration",
+      "E-mail marketing (Mailchimp)",
+    ],
+    href: "projects/giftalot-africa",
+    category: "WordPress",
+  },
+
   {
     client: "Go.Compare",
     title: "Email settings with the 'Preference Centre'",
@@ -103,74 +166,7 @@ export const ProjectListing = [
     href: "projects/gocompare-home-insurance",
     category: "UI/UX",
   },
-  {
-    client: "MultiChoice",
-    title: "Landing and login pages",
-    image: "/projects/projects-multichoice-webportal-tablet.webp",
-    description: [
-      "UI design for landing & login pages",
-      "Brand (logo) identity",
-      "3D design elements",
-      "HTML5, CSS (Bootstrap) & jQuery",
-    ],
-    href: "projects/multichoice-landing-login-pages",
-    category: "Design",
-  },
 
-  {
-    client: "Freelance",
-    title: "Infinite Grace. A full turnkey solution.",
-    image: "/projects/projects-infinitegrace.webp",
-    description: [
-      "Strategy & planning",
-      "Logo design",
-      "Digital design",
-      "E-mail marketing (MailChimp)",
-      "WordPress & hosting",
-    ],
-    href: "projects/infinite-grace",
-    category: "WordPress",
-  },
-
-  {
-    client: "MultiChoice",
-    title: "Creative design for iConnect Africa",
-    image: "/projects/projects-multichoice-iconnect.webp",
-    description: [
-      "Creative design",
-      "Photoshop manipulation work",
-      "UI design",
-      "Logo design",
-    ],
-    href: "projects/multichoice-iconnect-africa",
-    category: "Design",
-  },
-  {
-    client: "MultiChoice",
-    title: "Department style guide",
-    image: "/projects/projects-multichoice-styleguide.webp",
-    description: [
-      "Creative concept",
-      "UI design",
-      "Copywriting",
-      "HTML5 & CSS (Bootstrap)",
-    ],
-    href: "projects/multichoice-style-guide",
-    category: "Design",
-  },
-  {
-    client: "MultiChoice",
-    title: "Win an Explora. Web and poster campaign",
-    image: "/projects/projects-multichoice-qr-code.webp",
-    description: [
-      "Concept",
-      "3D graphic image",
-      "Mobile design",
-      "Poster design",
-    ],
-    href: "projects/multichoice-win-an-explora",
-    category: "Design",
-  },
   {
     client: "Freelance",
     title: "Definitia Africa. Website design & WordPress",
@@ -187,6 +183,29 @@ export const ProjectListing = [
 
   {
     client: "MultiChoice",
+    title: "Creative design for iConnect Africa",
+    image: "/projects/projects-multichoice-iconnect.webp",
+    description: ["Concept", "Photoshop design"],
+    href: "projects/multichoice-iconnect-africa",
+    category: "Design",
+  },
+
+  {
+    client: "MultiChoice",
+    title: "Win an Explora. Web and poster campaign",
+    image: "/projects/projects-multichoice-qr-code.webp",
+    description: [
+      "Concept",
+      "3D graphic image",
+      "Mobile design",
+      "Poster design",
+    ],
+    href: "projects/multichoice-win-an-explora",
+    category: "Design",
+  },
+
+  {
+    client: "MultiChoice",
     title: "Reducing errors & failures on MultiChoice Africa platforms",
     image: "/projects/projects-multichoice-reducing-errors.webp",
     description: [
@@ -198,34 +217,7 @@ export const ProjectListing = [
     href: "projects/multichoice-reducing-errors",
     category: "UI/UX",
   },
-  {
-    client: "MultiChoice",
-    title: "Headless CMS for ThinkTank",
-    image: "/projects/projects-multichoice-thinktank-mobile.webp",
-    description: [
-      "3D design",
-      "UI design",
-      "HTML & CSS",
-      "Print & logo design",
-      "WordPress custom theme",
-    ],
-    href: "projects/multichoice-thinktank",
-    category: "WordPress",
-  },
-  // {
-  //   client: "MultiChoice",
-  //   title: "Creative design for 'Commoncents - it just makes sense'",
-  //   image: "/projects/projects-multichoice-commoncents.webp",
-  //   description: [
-  //     "Creative design",
-  //     "3D design in Autodesk Maya",
-  //     "Photoshop manipulation",
-  //     "Logo design",
-  //   ],
 
-  //   href: "projects/multichoice-common-cents",
-  //   category: "Design",
-  // },
   {
     client: "Freelance",
     title: "Valverde Country Hotel",

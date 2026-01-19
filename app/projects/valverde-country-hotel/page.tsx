@@ -86,6 +86,13 @@ export default function valverdeCountryHotel() {
             width={970}
             height={308}
           />
+
+          <Image
+            src="/projects/valverde-print.jpg"
+            alt="Valverde Country Hotel print example"
+            width={1920}
+            height={1785}
+          />
         </div>
       </div>
 

@@ -43,10 +43,10 @@ export default function goCompareDesignSystem() {
         </p>
         <h3>My role</h3>
         <p>
-          Build all UI elements from scratch • Extend Figma’s styles to
+          Build all UI elements from scratch • Extend Figma's styles to
           component patterns with on & off switches • Build interchangeable
-          assets between desktop, tablet & mobile views • Present to key
-          stakeholders and get business buy-in
+          assets between desktop & mobile views • Present to key stakeholders
+          and get business buy-in
         </p>
 
         <div className="flex flex-row flex-wrap gap-9">

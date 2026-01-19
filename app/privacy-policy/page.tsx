@@ -16,7 +16,7 @@ export default function privacyPolicy() {
     <>
       <Logo />
       <ParallaxHeader
-        headerImage="/projects/privacy-policy-masthead.webp"
+        headerImage="/privacy-policy-masthead.webp"
         subheading=""
         heading="Privacy Policy"
       />
@@ -46,11 +46,11 @@ export default function privacyPolicy() {
           cannot identify you from it.
         </p>
 
-        <h3>PostHog</h3>
+        <h3>Hotjar</h3>
         <p>
-          3rd-party audience data with PostHog is used on this website to
-          improve user experience. The information is aggregated so one cannot
-          identify you from it.
+          3rd-party audience data with Hotjar is used on this website to improve
+          user experience. The information is aggregated so one cannot identify
+          you from it.
         </p>
       </div>
 

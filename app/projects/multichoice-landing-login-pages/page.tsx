@@ -56,8 +56,10 @@ export default function multichoiceLandingLoginPages() {
           alt="Multichoice web portal wireframe"
           width={1280}
           height={1168}
-          className="mb-14"
         />
+        <figcaption className="text-center mt-8">
+          <h5>Wireframe to pitch and sell the concept to stakeholders.</h5>
+        </figcaption>
       </figure>
 
       <figure className="container mx-auto max-w-sm px-6 lg:px-0 mb-28">
@@ -66,8 +68,10 @@ export default function multichoiceLandingLoginPages() {
           alt="Multichoice web portal logos"
           width={900}
           height={411}
-          className="mb-14"
         />
+        <figcaption className="text-center mt-6">
+          <h5>Individually designed icons for each application.</h5>
+        </figcaption>
       </figure>
 
       <Image
