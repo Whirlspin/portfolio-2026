@@ -22,7 +22,8 @@ export default function valverdeCountryHotel() {
         subheading="Freelance"
         heading="Valverde Country Hotel"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
+
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
         <BreadcrumbNav projectTitle="Valverde Country Hotel" />
 
         <h3>All marketing material</h3>
@@ -37,7 +38,7 @@ export default function valverdeCountryHotel() {
           width={1600}
           height={678}
         />
-      </div>
+      </main>
 
       <div className="container max-w-xl mx-auto p-6 mb-18">
         <div className="flex justify-center gap-6">

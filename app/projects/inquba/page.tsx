@@ -23,7 +23,7 @@ export default function inQuba() {
         subheading="inQuba"
         heading="Customer journey mapping software"
       />
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="inQuba: Customer journey mapping software" />
         <h3>About the role</h3>
         <p>
@@ -86,12 +86,12 @@ export default function inQuba() {
             />
           </div>
         </div>
-      </section>
+      </main>
 
       {/* UX approach  */}
       <section className="w-full bg-stone-100 py-28">
         <div className="container mx-auto max-w-4xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 lg:px-0 ">
-          <div className="mx-auto sm:mx-0 w-1/2 sm:w-full">
+          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
             <Image
               src="/projects/inquba-icon-binoculars.svg"
               alt="Binoculars"
@@ -107,7 +107,7 @@ export default function inQuba() {
             </ul>
           </div>
 
-          <div className="mx-auto sm:mx-0 w-1/2 sm:w-full">
+          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
             <Image
               src="/projects/inquba-icon-target.svg"
               alt="Target"
@@ -123,7 +123,7 @@ export default function inQuba() {
             </ul>
           </div>
 
-          <div className="mx-auto sm:mx-0 w-1/2 sm:w-full">
+          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
             <Image
               src="/projects/inquba-icon-lightbulb.svg"
               alt="Lightbulb"
@@ -139,7 +139,7 @@ export default function inQuba() {
             </ul>
           </div>
 
-          <div className="mx-auto sm:mx-0 w-1/2 sm:w-full">
+          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
             <Image
               src="/projects/inquba-icon-design.svg"
               alt="Design"
@@ -155,7 +155,7 @@ export default function inQuba() {
             </ul>
           </div>
 
-          <div className="mx-auto sm:mx-0 w-1/2 sm:w-full">
+          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
             <Image
               src="/projects/inquba-icon-list.svg"
               alt="Test"

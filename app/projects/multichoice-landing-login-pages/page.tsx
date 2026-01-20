@@ -24,7 +24,8 @@ export default function multichoiceLandingLoginPages() {
         subheading="Multichoice"
         heading="Landing & login pages"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Multichoice: Landing & login pages" />
         <h3>Web portal applications</h3>
         <p>
@@ -48,7 +49,7 @@ export default function multichoiceLandingLoginPages() {
             &rsaquo;
           </span>
         </Link>
-      </div>
+      </main>
 
       <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
         <Image

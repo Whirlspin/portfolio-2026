@@ -22,7 +22,7 @@ export default function giftalotAfrica() {
         subheading="Giftalot Africa"
         heading="eCommerce WordPress website"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28">
         <BreadcrumbNav projectTitle="Giftalot Africa: eCommerce WordPress website" />
         <h3>Summary</h3>
         <p>
@@ -85,7 +85,8 @@ export default function giftalotAfrica() {
             charSet="utf-8"
           ></script>
         </div>
-      </div>
+      </main>
+
       <div className="container mx-auto max-w-7xl mb-28">
         <Image
           src="/projects/giftalot-merry-giftmas.jpg"

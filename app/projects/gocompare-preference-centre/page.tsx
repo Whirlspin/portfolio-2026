@@ -23,7 +23,7 @@ export default function goComparePreferenceCentre() {
         heading="Email settings on the 'Preference Centre'"
       />
       {/* Introduction  */}
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Preference Centre" />
         <h3>Background</h3>
         <p>
@@ -58,7 +58,7 @@ export default function goComparePreferenceCentre() {
             />
           </div>
         </div>
-      </section>
+      </main>
 
       {/* The strategy */}
       <section className="w-full bg-green-50 py-28 mb-28">

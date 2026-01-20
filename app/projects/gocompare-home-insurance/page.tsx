@@ -24,7 +24,7 @@ export default function goCompareHomeInsurance() {
         heading="Home insurance question set"
       />
       {/* Introduction  */}
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Home insurance" />
         <h3>Problem statement</h3>
         <p>
@@ -85,7 +85,7 @@ export default function goCompareHomeInsurance() {
             />
           </div>
         </div>
-      </section>
+      </main>
 
       <figure className="container mx-auto max-w-6xl px-6 mb-28">
         <figcaption className="flex justify-around mb-8">

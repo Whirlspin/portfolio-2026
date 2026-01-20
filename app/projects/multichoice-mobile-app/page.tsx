@@ -79,7 +79,7 @@ export default function multichoiceMobileApp() {
         />
       </section>
 
-      <div className="container mx-auto max-w-2xl -mt-80 mb-28 p-6">
+      <div className="container mx-auto max-w-2xl -mt-98 sm:-mt-80 mb-28 p-6">
         <Image
           src="/projects/multichoice-mobile-app-handheld-design.jpg"
           width={1195}
@@ -89,7 +89,7 @@ export default function multichoiceMobileApp() {
         />
       </div>
 
-      <div className="container max-w-96 mx-auto p-6 text-center mb-28">
+      <div className="container max-w-96 mx-auto p-6 mb-28">
         <video
           className="w-full h-auto max-w-full rounded border border-stone-300"
           autoPlay
@@ -102,7 +102,7 @@ export default function multichoiceMobileApp() {
           />
           Your browser does not support the video tag.
         </video>
-        <h5 className="mt-8 uppercase bg-stone-50 p-6">
+        <h5 className="mt-8 text-center bg-stone-100 p-6">
           Interactive prototype
         </h5>
       </div>

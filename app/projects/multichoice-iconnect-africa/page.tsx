@@ -21,7 +21,8 @@ export default function multichoiceIconnectAfrica() {
         subheading="MultiChoice"
         heading="Creative design for iConnect Africa"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="MultiChoice: iConnect Africa" />
         <p>
           iConnect Africa is a SharePoint intranet for MultiChoice employees. I
@@ -34,7 +35,7 @@ export default function multichoiceIconnectAfrica() {
           Creative design • Photoshop manipulation • 3D design • UI design •
           Logo design
         </p>
-      </div>
+      </main>
 
       <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
         <Image

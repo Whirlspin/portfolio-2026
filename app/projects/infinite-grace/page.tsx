@@ -23,7 +23,8 @@ export default function infiniteGrace() {
         subheading="Infinite Grace"
         heading=" A full turnkey solution"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Infinite Grace" />
         <p className="mb-5!">
           Infinite Grace, formerly known as 'Strokes of Grace', narrates the
@@ -63,7 +64,7 @@ export default function infiniteGrace() {
           height={965}
           className="mt-28"
         />
-      </div>
+      </main>
 
       <figure className="max-w-xl mx-auto p-6 mb-28">
         <img

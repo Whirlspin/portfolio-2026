@@ -23,7 +23,7 @@ export default function definitiaAfrica() {
         subheading="Definitia Africa"
         heading=" Website design & WordPress build"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="Definitia Africa" />
         <p className="mb-5!">
           I love an independent website request like this one where the client
@@ -42,7 +42,7 @@ export default function definitiaAfrica() {
           Website design • Photoshop • Logo design • WordPress (BeTheme) •
           Domain, E-mail & hosting • SEO basics
         </p>
-      </div>
+      </main>
 
       <figure className="grid grid-cols-1 md:grid-cols-3">
         <Image

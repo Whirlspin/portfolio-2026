@@ -23,7 +23,7 @@ export default function inQubaDynamicDialogues() {
         heading="Dynamic Dialogues ideation exercise"
       />
 
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="inQuba: Dynamic Dialogues ideation exercise" />
         <h3>Problem statement</h3>
         <p>
@@ -69,7 +69,7 @@ export default function inQubaDynamicDialogues() {
             />
           </div>
         </div>
-      </div>
+      </main>
 
       {/* Competitor anslysis  */}
       <section className="container max-w-7xl mx-auto px-6 mb-28">

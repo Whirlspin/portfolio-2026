@@ -22,6 +22,7 @@ export default function multichoiceThinkTank() {
         subheading="MultiChoice"
         heading="Headless CMS for ThinkTank"
       />
+
       <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
         <BreadcrumbNav projectTitle="MultiChoice: ThinkTank" />
         <p>

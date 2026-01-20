@@ -56,7 +56,7 @@ export default function multichoiceStyleGuide() {
         />
       </main>
 
-      <div className="container mx-auto max-w-7xl px-6 lg:px-0 pb-28">
+      <section className="container mx-auto max-w-7xl px-6 lg:px-0 pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <Image
             src="/projects/multichoice-styleguide-cellphone.jpg"
@@ -83,7 +83,7 @@ export default function multichoiceStyleGuide() {
             </h5>
           </div>
         </div>
-      </div>
+      </section>
 
       <CategoryListingFooter categoryChoose="Design" />
 

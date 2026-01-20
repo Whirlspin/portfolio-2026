@@ -23,7 +23,7 @@ export default function multichoiceDstvWebsiteRedesign() {
         heading="DStv Self Service website redesign"
       />
       {/* Introduction  */}
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
         <BreadcrumbNav projectTitle=" MultiChoice: DStv Self Service website redesign" />
         <h3>Usability Challenges</h3>
         <p className="mb-5!">
@@ -97,7 +97,7 @@ export default function multichoiceDstvWebsiteRedesign() {
           height={1004}
           alt="DStv Self Service website load times"
         />
-      </section>
+      </main>
 
       {/* Content is King  */}
       <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
@@ -113,7 +113,7 @@ export default function multichoiceDstvWebsiteRedesign() {
           </strong>
         </p>
 
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Get DStv  */}
           <div>
             <h4 className="text-center p-5 bg-stone-100 border-b-2 border-b-amber-500 mb-4">
@@ -274,7 +274,7 @@ export default function multichoiceDstvWebsiteRedesign() {
       {/* Iconography  */}
       <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap gap-4 mb-28">
         <h6 className="text-white!">
-          All icons were further designed in Adobe Illustrator
+          All icons were further designed in Adobe Illustrator.
         </h6>
         <img
           src="/projects/multichoice-dstv-outline-icon-wallet.svg"
