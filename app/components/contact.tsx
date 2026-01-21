@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Footer from "./footer";
+import ContactForm from "./contactForm";
 
 export default function Contact() {
   return (
@@ -19,7 +20,7 @@ export default function Contact() {
               free to reach out.
             </h5>
 
-            <form action="">
+            {/* <form action="">
               <input
                 required
                 type="text"
@@ -44,7 +45,9 @@ export default function Contact() {
               >
                 Send
               </button>
-            </form>
+            </form> */}
+
+            <ContactForm />
           </div>
           <div className="relative z-50 px-12 md:px-0 md:w-1/2 hidden md:block">
             <Image

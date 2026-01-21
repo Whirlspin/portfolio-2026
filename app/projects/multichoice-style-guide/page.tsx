@@ -38,7 +38,7 @@ export default function multichoiceStyleGuide() {
 
         <Link
           className="group bg-white hover:bg-red-50 text-lg pl-4 pr-1 hover:pr-4 py-4 transition-all duration-300 border rounded-md uppercase"
-          href="https://jethroedwards.com/TEMP/mca-styleguide/"
+          href="https://jetandjess.co.za/TEMP/mca-styleguide/"
           target="_blank"
         >
           Visit website{" "}

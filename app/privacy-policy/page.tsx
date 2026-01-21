@@ -35,8 +35,15 @@ export default function privacyPolicy() {
           As a rule, cookies will make your browsing experience better. However,
           you may prefer to disable cookies. The most effective way to do this
           is to disable cookies in your browser. Consult the Help section of
-          your browser or taking a look at the About Cookies website which
-          offers guidance for all modern browsers.
+          your browser or taking a look at the{" "}
+          <a
+            className="font-medium"
+            href="https://www.aboutcookies.org"
+            target="_blank"
+          >
+            About Cookies
+          </a>{" "}
+          website which offers guidance for all modern browsers.
         </p>
 
         <h3>Analytics</h3>

@@ -339,7 +339,7 @@ export default function multichoiceDstvWebsiteRedesign() {
       </div>
 
       <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
-        <h3>Achieving success involves:</h3>
+        <h3>Outcomes</h3>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <ul>
             <li>Top-notch responsive design</li>

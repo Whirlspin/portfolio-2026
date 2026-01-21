@@ -42,10 +42,10 @@ export default function multichoiceThinkTank() {
 
         <Link
           className="group bg-white hover:bg-red-50 text-lg pl-4 pr-1 hover:pr-4 py-4 transition-all duration-300 border rounded-md uppercase"
-          href="https://thinktank.jethroedwards.com/"
+          href="https://thinktank.jetandjess.co.za/"
           target="_blank"
         >
-          Visit website{" "}
+          Visit demo website{" "}
           <span className="text-2xl opacity-0 group-hover:opacity-100 transition-all duration-300">
             &rsaquo;
           </span>

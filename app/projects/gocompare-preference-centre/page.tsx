@@ -67,11 +67,10 @@ export default function goComparePreferenceCentre() {
             <div className="md:w-8/12">
               <h3>The strategy</h3>
               <p className="mb-5!">
-                From a clean slate I defined all the individual elements
-                (colours, typography, spacing and imagery) thereby establishing
-                the foundation for a new design system. The next stage was
-                bringing these elements (atoms) together to produce components,
-                then patterns (organisms) and eventually fully defined pages.
+                We organised a brainstorming session with one of the design team
+                (myself), the product owner, and the research team to create a
+                test plan for gathering customer feedback prior to the official
+                launch.
               </p>
               <p className="mb-0!">
                 It was agreed upon among the stakeholders to hypothesis then
