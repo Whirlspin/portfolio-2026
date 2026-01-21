@@ -20,33 +20,6 @@ export default function Contact() {
               free to reach out.
             </h5>
 
-            {/* <form action="">
-              <input
-                required
-                type="text"
-                className="w-full bg-white border border-zinc-400 rounded-md p-2 mb-4"
-                placeholder="Your name..."
-              />
-              <input
-                required
-                type="email"
-                className="w-full bg-white border border-zinc-400 rounded-md p-2 mb-4"
-                placeholder="Your email..."
-              />
-              <textarea
-                required
-                className="w-full bg-white border border-zinc-400 rounded-md p-2 mb-4"
-                rows={4}
-                placeholder="Your message..."
-              />
-              <button
-                type="submit"
-                className="bg-red-700 hover:bg-red-900 transition-colors duration-300 font-semibold w-full border-2 border-red-700 text-white px-4 py-2 rounded-md"
-              >
-                Send
-              </button>
-            </form> */}
-
             <ContactForm />
           </div>
           <div className="relative z-50 px-12 md:px-0 md:w-1/2 hidden md:block">
