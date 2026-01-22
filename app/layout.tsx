@@ -1,9 +1,8 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
-import ConsentManager from "./consent-manager";
-import "./globals.css";
 import Script from "next/script";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} antialiased`}>
-        <ConsentManager>{children}</ConsentManager>
-      </body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
 
       <GoogleAnalytics gaId="G-MRFBSZXSWD" />
 
