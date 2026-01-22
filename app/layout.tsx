@@ -1,9 +1,9 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import type { Metadata } from "next";
+import ConsentManager from "./consent-manager";
 import "./globals.css";
 import Script from "next/script";
-import { ConsentManager } from "./consent-manager";
 
 const inter = Inter({
   subsets: ["latin"],
