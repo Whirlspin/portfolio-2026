@@ -18,7 +18,7 @@ export default function ContactForm() {
 
     const data = await response.json();
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Message sent, thank you.");
       event.target.reset();
     } else {
       setResult("Error");
@@ -49,7 +49,7 @@ export default function ContactForm() {
         required
       ></textarea>
 
-      <h5 className="text-center uppercase mt-1 mb-3 text-black!">{result}</h5>
+      <h5 className="text-center mt-1 mb-3 text-black!">{result}</h5>
 
       <button
         className="bg-red-700 hover:bg-red-900 transition-colors duration-300 font-semibold w-full border-2 border-red-700 text-white px-4 py-2 rounded-md"

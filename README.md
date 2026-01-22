@@ -2,6 +2,7 @@
 
 My first real NextJS project. Jan 2026.
 
-Mostly hand-coded with minimal AI input.
+Hand-coded with minimal AI input.
 
-Worked entirely from a Tailwind design system I made in Figma.
+Referenced entirely from a Figma file I made. **Design system tokens** for Tailwind CSS was a massive help to get design-dev alignment -
+(https://www.figma.com/community/file/1052575036916494414)

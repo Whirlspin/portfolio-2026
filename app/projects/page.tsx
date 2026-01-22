@@ -25,7 +25,7 @@ export default function Projects() {
           <Image
             className="mx-auto"
             src="/projects/text-projects.svg"
-            width={314}
+            width={230}
             height={43}
             alt="All projects"
           />

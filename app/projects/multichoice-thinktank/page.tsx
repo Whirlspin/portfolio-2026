@@ -18,7 +18,7 @@ export default function multichoiceThinkTank() {
     <>
       <Logo />
       <ParallaxHeader
-        headerImage="/projects/multichoice-thinktank-masthead.webp"
+        headerImage="/projects/multichoice-thinktank-laptop.webp"
         subheading="MultiChoice"
         heading="Headless CMS for ThinkTank"
       />
@@ -36,8 +36,8 @@ export default function multichoiceThinkTank() {
 
         <h3>My role</h3>
         <p className="pb-5">
-          Responsive web design • Print design (marketing) • Logo creation •
-          WordPress custom theme (All CSS styling)
+          WordPress custom theme (All CSS styling) • Responsive web design •
+          Print design (marketing) • Logo creation
         </p>
 
         <Link
@@ -54,13 +54,6 @@ export default function multichoiceThinkTank() {
 
       <div className="container mx-auto max-w-7xl px-6 lg:px-0 pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <Image
-            src="/projects/multichoice-thinktank-laptop.jpg"
-            width={1920}
-            height={709}
-            alt="MultiChoice ThinkTank on laptop"
-            className="lg:col-span-2"
-          />
           {/* Mobile view  */}
           <Image
             src="/projects/multichoice-thinktank-mobile.jpg"
