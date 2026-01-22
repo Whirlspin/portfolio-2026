@@ -11,7 +11,7 @@ export default function MyProjects() {
       initial={{ opacity: 0, y: 48, filter: "blur(20px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      viewport={{ once: true, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.05 }}
     >
       <div className="container mx-auto max-w-7xl lg:flex items-end">
         <div className="flex-1">

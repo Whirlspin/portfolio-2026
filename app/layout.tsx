@@ -22,7 +22,17 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} antialiased`}>{children}</body>
+
       <GoogleAnalytics gaId="G-MRFBSZXSWD" />
+
+      <Script
+        strategy="afterInteractive"
+        id="Cookiebot"
+        src="https://consent.cookiebot.com/uc.js"
+        data-cbid="ac491edc-8ae6-440e-8ead-130a9ca025d2"
+        data-blockingmode="auto"
+        type="text/javascript"
+      />
 
       {/* Hotjar  */}
       <Script strategy="afterInteractive">
