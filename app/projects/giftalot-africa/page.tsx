@@ -111,19 +111,19 @@ export default function giftalotAfrica() {
           alt="Giftalot Africa email marketing photograph"
           width={720}
           height={540}
-          className="rounded border border-stone-100"
+          className="rounded border border-stone-100 mb-6"
         />
-        <p className="text-center py-4">
+        <h5 className="p-4 bg-stone-100">
           On a shoestring budget all photography was completed in the spare
           bedroom against a plain white voile curtain that provided an 'infinity
           backdrop'. <i>See the end result below.</i>
-        </p>
+        </h5>
         <Image
           src="/projects/giftalot-coupon-emailer.jpg"
           alt="Giftalot Africa Email marketing"
           width={720}
           height={1882}
-          className="rounded border border-stone-200 mb-28"
+          className="rounded border border-stone-200 mt-6 mb-28"
         />
       </div>
 

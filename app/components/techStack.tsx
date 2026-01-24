@@ -89,9 +89,9 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="Hotjar"
-              imageSrc="/tech-stack-hotjar.svg"
-              altText="Hotjar"
+              tooltiptext="PostHog"
+              imageSrc="/tech-stack-posthog.svg"
+              altText="PostHog"
             />
 
             <Tooltip
