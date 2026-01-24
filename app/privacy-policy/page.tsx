@@ -131,14 +131,14 @@ export default function privacyPolicy() {
           <li>Your browser settings</li>
           <li>The cookie banner (if present)</li>
           <li>
-            Opt-out tools of third parties (e.g.{" "}
+            Opt-out tools of{" "}
             <a
               className="text-red-500 underline"
               href="https://tools.google.com/dlpage/gaoptout"
             >
-              https://tools.google.com/dlpage/gaoptout
+              third parties
             </a>{" "}
-            for Google Analytics)
+            (e.g. for Google Analytics)
           </li>
         </ul>
         <h3 className="mb-5">4. Legal Basis for Processing (UK GDPR)</h3>
@@ -167,7 +167,7 @@ export default function privacyPolicy() {
             Cloudflare, AWS, etc.)
           </li>
           <li>
-            Analytics providers (e.g. PostHog and Google Analytics – anonymised)
+            Analytics providers (e.g. PostHog and Google Analytics - anonymised)
           </li>
           <li>
             Email service providers (if you contact me via form and I use a
