@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/app/components/logo";
 import ParallaxHeader from "@/app/components/ParallaxHeader";

@@ -35,3 +35,12 @@ ul {
 li {
   @apply pl-1 ml-9 text-lg leading-7;
 }
+
+.cm__desc {
+  color: #333 !important;
+}
+
+#cc-main {
+  /** Change button primary color to black **/
+  --cc-btn-secondary-border-color: #000000;
+}

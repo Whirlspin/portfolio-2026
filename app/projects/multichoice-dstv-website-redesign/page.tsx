@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/app/components/logo";
 import ParallaxHeader from "@/app/components/ParallaxHeader";
@@ -272,9 +272,9 @@ export default function multichoiceDstvWebsiteRedesign() {
       </section>
 
       {/* Iconography  */}
-      <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap gap-4 mb-28">
+      <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap text-center gap-4 mb-28">
         <h6 className="text-white!">
-          All icons were further designed in Adobe Illustrator.
+          All icons were further refined in Adobe Illustrator.
         </h6>
         <img
           src="/projects/multichoice-dstv-outline-icon-wallet.svg"

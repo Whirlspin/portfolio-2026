@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/app/components/logo";
 import ParallaxHeader from "@/app/components/ParallaxHeader";
@@ -41,7 +41,7 @@ export default function valverdeCountryHotel() {
       </main>
 
       <div className="container max-w-xl mx-auto p-6 mb-18">
-        <div className="flex justify-center gap-6">
+        <div className="flex flex-col-reverse sm:flex-row justify-center gap-6">
           <Image
             src="/projects/valverde-tree.png"
             alt="Valverde Country Hotel logo design"

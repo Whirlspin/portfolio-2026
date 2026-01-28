@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/app/components/logo";
 import ParallaxHeader from "@/app/components/ParallaxHeader";
@@ -100,8 +100,9 @@ export default function infiniteGrace() {
           width={1024}
           height={687}
         />
-        <div className="flex align-middle justify-center max-h-[687px] bg-stone-100">
-          <button>
+        <div className="flex flex-col align-middle justify-around sm:max-h-[687px] bg-stone-100">
+          <div />
+          <button className="py-36 md:py-0">
             <Link
               className="group bg-white hover:bg-red-50 text-lg pl-4 pr-1 hover:pr-4 py-4 transition-all duration-300 border rounded-md uppercase"
               href="https://ybkconsulting.co.za/"
@@ -113,6 +114,9 @@ export default function infiniteGrace() {
               </span>
             </Link>
           </button>
+          <h5 className="text-center px-3 pb-8 md:pb-0">
+            WordPress (BeTheme) • Domain, E-mail & hosting • SEO basics
+          </h5>
         </div>
       </figure>
 

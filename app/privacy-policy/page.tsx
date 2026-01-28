@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/app/components/logo";
 import ParallaxHeader from "@/app/components/ParallaxHeader";
@@ -33,7 +33,7 @@ export default function privacyPolicy() {
           &quot;Site&quot;).
         </p>
         <p className="mb-5!">
-          This Privacy Policy explains what personal information I collect from
+          This privacy policy explains what personal information I collect from
           visitors to the Site, how I use it, who I share it with (if anyone),
           how long I keep it, and what rights you have regarding your data.
         </p>
@@ -102,7 +102,7 @@ export default function privacyPolicy() {
           I do <strong>not</strong> use your personal information for automated
           decision-making or profiling that produces legal effects.
         </p>
-        <h3 className="mb-5">3. Cookies &amp; Similar Technologies</h3>
+        <h3 className="mb-5">3. Cookies &amp; similar technologies</h3>
         <p className="mb-5!">
           This Site uses cookies and similar tracking technologies.
         </p>
@@ -113,7 +113,7 @@ export default function privacyPolicy() {
           navigation). You cannot opt out of these.
         </p>
         <p className="mb-5!">
-          <strong>Analytics cookies</strong> (e.g. Google Analytics and PostHog)
+          <strong>Analytics cookies</strong> (e.g. Google Analytics and Hotjar)
           <br />
           These help me understand how visitors use the Site. Data is anonymised
           where possible (IP anonymisation enabled). You can opt out via your
@@ -141,7 +141,7 @@ export default function privacyPolicy() {
             (e.g. for Google Analytics)
           </li>
         </ul>
-        <h3 className="mb-5">4. Legal Basis for Processing (UK GDPR)</h3>
+        <h3 className="mb-5">4. Legal basis for processing (UK GDPR)</h3>
         <p className="mb-0!">My processing is based on:</p>
         <ul className="mb-5">
           <li>
@@ -156,7 +156,7 @@ export default function privacyPolicy() {
             <strong>Legal obligation</strong> — when required by law
           </li>
         </ul>
-        <h3 className="mb-5">5. Sharing Your Information</h3>
+        <h3 className="mb-5">5. Sharing your information</h3>
         <p className="mb-5!">
           I do <strong>not</strong> sell your personal data.
         </p>
@@ -167,7 +167,7 @@ export default function privacyPolicy() {
             Cloudflare, AWS, etc.)
           </li>
           <li>
-            Analytics providers (e.g. PostHog and Google Analytics - anonymised)
+            Analytics providers (e.g. Google Analytics & Hotjar - anonymised)
           </li>
           <li>
             Email service providers (if you contact me via form and I use a
@@ -182,7 +182,7 @@ export default function privacyPolicy() {
           All third parties are required to protect your data and process it
           only for the purposes instructed.
         </p>
-        <h3 className="mb-5">6. Data Storage &amp; International Transfers</h3>
+        <h3 className="mb-5">6. Data storage &amp; international transfers</h3>
         <p className="mb-5!">
           Data is stored primarily in the{" "}
           <strong>European Economic Area (EEA)</strong> or in countries with
@@ -212,7 +212,7 @@ export default function privacyPolicy() {
         <p className="mb-5!">
           I delete or anonymise data when it is no longer needed.
         </p>
-        <h3 className="mb-5!">8. Your Rights</h3>
+        <h3 className="mb-5!">8. Your rights</h3>
         <p className="mb-0!">Under UK GDPR you have the right to:</p>
         <ul className="mb-5!">
           <li>Access your personal data</li>
@@ -243,12 +243,12 @@ export default function privacyPolicy() {
           protect your data (HTTPS, secure hosting, limited access, etc.).
           However, no method of transmission over the internet is 100% secure.
         </p>
-        <h3 className="mb-5!">10. Children's Privacy</h3>
+        <h3 className="mb-5!">10. Children's privacy</h3>
         <p className="mb-5!">
           This Site is not directed at children under 16. I do not knowingly
           collect personal data from children under 16.
         </p>
-        <h3 className="mb-5!">11. Changes to This Privacy Policy</h3>
+        <h3 className="mb-5!">11. Changes to this privacy policy</h3>
         <p className="mb-5!">
           I may update this policy from time to time. The “Last updated” date at
           the top shows when changes were last made. Significant changes will be
