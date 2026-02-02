@@ -110,12 +110,6 @@ export default function CookieConsentV3() {
                         description: "Cookie set by Hotjar",
                         expiration: "30 minutes",
                       },
-                      {
-                        name: "_hjIncludedInPageviewSample",
-                        domain: "Hotjar",
-                        description: "Cookie set by Hotjar",
-                        expiration: "-",
-                      },
                     ],
                   },
                 },

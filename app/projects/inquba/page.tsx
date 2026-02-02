@@ -90,85 +90,88 @@ export default function inQuba() {
 
       {/* UX approach  */}
       <section className="w-full bg-stone-100 py-28">
-        <div className="container mx-auto max-w-4xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 lg:px-0 ">
-          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
-            <Image
-              src="/projects/inquba-icon-binoculars.svg"
-              alt="Binoculars"
-              width={60}
-              height={60}
-              className="mb-4"
-            />
-            <h4 className="font-bold! mb-1">1. Discover</h4>
-            <ul className="list-none!">
-              <li className="ml-0! pl-0!">User research</li>
-              <li className="ml-0! pl-0!">Stakeholder interviews</li>
-              <li className="ml-0! pl-0!">Competitive analysis</li>
-            </ul>
-          </div>
+        <div className="container mx-auto max-w-4xl">
+          <h3 className="mb-6">Design process</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 lg:px-0 ">
+            <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
+              <Image
+                src="/projects/inquba-icon-binoculars.svg"
+                alt="Binoculars"
+                width={60}
+                height={60}
+                className="mb-4"
+              />
+              <h4 className="font-bold! mb-1">1. Discover</h4>
+              <ul className="list-none!">
+                <li className="ml-0! pl-0!">User research</li>
+                <li className="ml-0! pl-0!">Stakeholder interviews</li>
+                <li className="ml-0! pl-0!">Competitive analysis</li>
+              </ul>
+            </div>
 
-          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
-            <Image
-              src="/projects/inquba-icon-target.svg"
-              alt="Target"
-              width={60}
-              height={60}
-              className="mb-4"
-            />
-            <h4 className="font-bold! mb-1">2. Define</h4>
-            <ul className="list-none!">
-              <li className="ml-0! pl-0!">Personas</li>
-              <li className="ml-0! pl-0!">Affinity graphs</li>
-              <li className="ml-0! pl-0!">User journey mapping</li>
-            </ul>
-          </div>
+            <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
+              <Image
+                src="/projects/inquba-icon-target.svg"
+                alt="Target"
+                width={60}
+                height={60}
+                className="mb-4"
+              />
+              <h4 className="font-bold! mb-1">2. Define</h4>
+              <ul className="list-none!">
+                <li className="ml-0! pl-0!">Personas</li>
+                <li className="ml-0! pl-0!">Affinity graphs</li>
+                <li className="ml-0! pl-0!">User journey mapping</li>
+              </ul>
+            </div>
 
-          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
-            <Image
-              src="/projects/inquba-icon-lightbulb.svg"
-              alt="Lightbulb"
-              width={60}
-              height={60}
-              className="mb-4"
-            />
-            <h4 className="font-bold! mb-1">3. Ideate</h4>
-            <ul className="list-none!">
-              <li className="ml-0! pl-0!">User flow</li>
-              <li className="ml-0! pl-0!">Card sorting</li>
-              <li className="ml-0! pl-0!">Information architecture</li>
-            </ul>
-          </div>
+            <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
+              <Image
+                src="/projects/inquba-icon-lightbulb.svg"
+                alt="Lightbulb"
+                width={60}
+                height={60}
+                className="mb-4"
+              />
+              <h4 className="font-bold! mb-1">3. Ideate</h4>
+              <ul className="list-none!">
+                <li className="ml-0! pl-0!">User flow</li>
+                <li className="ml-0! pl-0!">Card sorting</li>
+                <li className="ml-0! pl-0!">Information architecture</li>
+              </ul>
+            </div>
 
-          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
-            <Image
-              src="/projects/inquba-icon-design.svg"
-              alt="Design"
-              width={60}
-              height={60}
-              className="mb-4"
-            />
-            <h4 className="font-bold! mb-1">4. Design</h4>
-            <ul className="list-none!">
-              <li className="ml-0! pl-0!">Wireframes</li>
-              <li className="ml-0! pl-0!">Hi-fi designs</li>
-              <li className="ml-0! pl-0!">Interactive prototypes</li>
-            </ul>
-          </div>
+            <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
+              <Image
+                src="/projects/inquba-icon-design.svg"
+                alt="Design"
+                width={60}
+                height={60}
+                className="mb-4"
+              />
+              <h4 className="font-bold! mb-1">4. Design</h4>
+              <ul className="list-none!">
+                <li className="ml-0! pl-0!">Wireframes</li>
+                <li className="ml-0! pl-0!">Hi-fi designs</li>
+                <li className="ml-0! pl-0!">Interactive prototypes</li>
+              </ul>
+            </div>
 
-          <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
-            <Image
-              src="/projects/inquba-icon-list.svg"
-              alt="Test"
-              width={60}
-              height={60}
-              className="mb-4"
-            />
-            <h4 className="font-bold! mb-1">5. Test</h4>
-            <ul className="list-none!">
-              <li className="ml-0! pl-0!">Feedback</li>
-              <li className="ml-0! pl-0!">Conclusions</li>
-              <li className="ml-0! pl-0!">Future concepts</li>
-            </ul>
+            <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
+              <Image
+                src="/projects/inquba-icon-list.svg"
+                alt="Test"
+                width={60}
+                height={60}
+                className="mb-4"
+              />
+              <h4 className="font-bold! mb-1">5. Test</h4>
+              <ul className="list-none!">
+                <li className="ml-0! pl-0!">Feedback</li>
+                <li className="ml-0! pl-0!">Conclusions</li>
+                <li className="ml-0! pl-0!">Future concepts</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

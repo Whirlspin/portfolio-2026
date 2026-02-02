@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
 import "./globals.css";
@@ -36,7 +37,8 @@ export default function RootLayout({
 
         <CookieConsentV3 />
 
-        <GoogleAnalytics gaId="G-MRFBSZXSWD" />
+        <GoogleAnalytics gaId="G-CQ1BK93JHL" />
+        <SpeedInsights />
 
         {/* Hotjar  */}
         <Script strategy="afterInteractive">

@@ -18,10 +18,10 @@ export default function privacyPolicy() {
       <ParallaxHeader
         headerImage="/privacy-policy-masthead.webp"
         subheading=""
-        heading="Privacy Policy"
+        heading="Privacy policy"
       />
       <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
-        <BreadcrumbNav projectTitle="Privacy Policy" />
+        <BreadcrumbNav projectTitle="Privacy policy" />
 
         <p className="mb-5!">
           <strong>Last updated:</strong> January, 2026
