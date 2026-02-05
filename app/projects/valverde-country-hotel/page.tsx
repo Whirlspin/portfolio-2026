@@ -23,7 +23,7 @@ export default function valverdeCountryHotel() {
         heading="Valverde Country Hotel"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-10 md:mb-20">
         <BreadcrumbNav projectTitle="Valverde Country Hotel" />
 
         <h3>All marketing material</h3>
@@ -58,7 +58,7 @@ export default function valverdeCountryHotel() {
         </div>
       </div>
 
-      <div className="container max-w-3xl mx-auto p-6 mb-28">
+      <div className="container max-w-3xl mx-auto p-6 mb-16 md:mb-28">
         <div className="grid gap-6">
           <Image
             src="/projects/valverde-wedding.jpg"

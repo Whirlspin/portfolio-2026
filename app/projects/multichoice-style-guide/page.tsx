@@ -22,7 +22,7 @@ export default function multichoiceStyleGuide() {
         subheading="MultiChoice"
         heading="Department style guide"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="MultiChoice: Department style guide" />
         <p>
           The department style guide is an excellent resource for all work
@@ -52,11 +52,11 @@ export default function multichoiceStyleGuide() {
           alt="MultiChoice style guide. Single page"
           width={1338}
           height={3590}
-          className="py-28"
+          className="py-16 md:py-28"
         />
       </main>
 
-      <section className="container mx-auto max-w-7xl px-6 lg:px-0 pb-28">
+      <section className="container mx-auto max-w-7xl px-6 lg:px-0 pb-16 md:pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <Image
             src="/projects/multichoice-styleguide-cellphone.jpg"

@@ -11,7 +11,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title:
     "Go Compare's home insurance journey • Jethro Edwards' portfolio website",
-  description: "A home insurance journey for Go.Compare customers.",
+  description:
+    "A revision of the home insurance journey (question set) for Go.Compare customers.",
 };
 
 export default function goCompareHomeInsurance() {
@@ -24,7 +25,7 @@ export default function goCompareHomeInsurance() {
         heading="Home insurance question set"
       />
       {/* Introduction  */}
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Home insurance" />
         <h3>Problem statement</h3>
         <p>
@@ -87,7 +88,7 @@ export default function goCompareHomeInsurance() {
         </div>
       </main>
 
-      <figure className="container mx-auto max-w-6xl px-6 mb-28">
+      <figure className="container mx-auto max-w-6xl px-6 mb-16 md:mb-28">
         <figcaption className="flex justify-around mb-8">
           <h4>Before</h4>
           <h4>After</h4>
@@ -100,16 +101,17 @@ export default function goCompareHomeInsurance() {
         />
       </figure>
 
-      <article className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
-        <h3>Problem areas identified, documented & solved collaboratively</h3>
+      <article className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
+        <h3>Deep dive into data</h3>
         <p>
-          Problems (pain points) are identified, then tested/validated with
-          users and solved collaboratively with many iterations if necessary. A
-          patient, yet thorough exercise.
+          A comprehensive deep dive into the data on homeowners insurance
+          reveals a complex and multifaceted landscape. To fully grasp what home
+          insurance truly entails, we systematically broke it down piece by
+          piece, mapping out the entire ecosystem for a complete understanding.
         </p>
       </article>
 
-      <figure className="container max-w-7xl mx-auto p-6 mb-28">
+      <figure className="container max-w-7xl mx-auto p-6 mb-16 md:mb-28">
         <Image
           src="/projects/goco-home-sketches.png"
           alt="Sketches and research findings"
@@ -118,7 +120,7 @@ export default function goCompareHomeInsurance() {
         />
       </figure>
 
-      <article className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <article className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <h3>Project outcome & introduction of 'Summary view'</h3>
         <p className="mb-5!">
           I recreated the entire Home insurance application experience for
@@ -143,7 +145,7 @@ export default function goCompareHomeInsurance() {
         </p>
       </article>
 
-      <figure className="container max-w-7xl mx-auto p-6 mb-28">
+      <figure className="container max-w-7xl mx-auto p-6 mb-16 md:mb-28">
         <Image
           src="/projects/goco-home-quote-select-summary-view.png"
           alt="Summary view example"
@@ -152,7 +154,7 @@ export default function goCompareHomeInsurance() {
         />
       </figure>
 
-      <figure className="container max-w-3xl mx-auto p-6 mb-28">
+      <figure className="container max-w-3xl mx-auto p-6 mb-16 md:mb-28">
         <Image
           src="/projects/goco-home-quote-select-edit.png"
           alt="Edit view example"

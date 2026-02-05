@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className="px-3" id="contact-me">
       <div className="w-full bg-white relative min-h-full z-10 pb-8">
-        <div className="container mx-auto max-w-6xl md:flex items-center mb-36">
+        <div className="container mx-auto max-w-6xl md:flex items-center mb-16 md:mb-36">
           <div className="bg-zinc-100 border-2 border-red-700 px-8 py-10 md:w-200 md:py-22 md:px-20 md:pr-60 md:-mr-40">
             <Image
               src={"/text-contact-me.svg"}

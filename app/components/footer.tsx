@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 container mx-auto max-w-7xl flex justify-between p-6 mb-36">
+    <footer className="relative z-10 container mx-auto max-w-7xl flex flex-col md:flex-row md:justify-between align-middle p-6 mb-16 md:mb-36 gap-y-12">
       {/* Footer links  */}
-      <div className="gap-4 flex flex-col md:flex-row">
+      <div className="order-3 md:order-1 flex justify-center gap-4">
         <Link
           href="/privacy-policy"
           className="underline decoration-red-700 underline-offset-10 decoration-2 transition duration-300 hover:decoration-red-700/0 hover:text-red-700"
@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
 
       {/* Back to top  */}
-      <Link className="block" href="#top">
+      <Link className="order-1 md:order-2 flex justify-center" href="#top">
         <svg
           width="24"
           height="25"
@@ -40,7 +40,7 @@ export default function Footer() {
       </Link>
 
       {/* Social networks  */}
-      <div className="flex flex-col md:flex-row gap-3">
+      <div className="order-2 md:order-3 flex justify-center gap-3">
         {/* LinkedIn  */}
         <Link
           href="https://www.linkedin.com/in/jethroedwards/"

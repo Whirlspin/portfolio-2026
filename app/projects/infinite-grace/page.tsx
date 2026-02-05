@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Infinite Grace • Jethro Edwards' portfolio website",
   description:
-    "Infinite Grace website design & WordPress build project by Jethro Edwards.",
+    "The story of Yvonne's incredible recovery. Infinite Grace website design & WordPress build.",
 };
 
 export default function infiniteGrace() {
@@ -24,7 +24,7 @@ export default function infiniteGrace() {
         heading=" A full turnkey solution"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pb-4 pt-16 md:py-28">
         <BreadcrumbNav projectTitle="Infinite Grace" />
         <p className="mb-5!">
           Infinite Grace, formerly known as 'Strokes of Grace', narrates the
@@ -62,15 +62,15 @@ export default function infiniteGrace() {
           alt="Infinite Grace responsive design"
           width={1550}
           height={965}
-          className="mt-28"
+          className="mt-16 md:mt-28"
         />
       </main>
 
-      <figure className="max-w-xl mx-auto p-6 mb-28">
+      <figure className="max-w-xl mx-auto p-6 mb-10 md:mb-28">
         <img
           src="/projects/infinite-grace-logo-designs.svg"
           alt="Infinite Grace logo design concepts"
-          className="w-full h-auto mb-16"
+          className="w-full h-auto mb-8 md:mb-16"
         />
         <figcaption className="text-center bg-stone-100 p-4">
           <h5>Various logo design options</h5>
@@ -93,7 +93,7 @@ export default function infiniteGrace() {
         className="w-full h-auto"
       />
 
-      <figure className="grid grid-cols-1 md:grid-cols-2 mb-28">
+      <figure className="grid grid-cols-1 md:grid-cols-2 mb-16 md:mb-28">
         <Image
           src="/projects/infinitegrace-ybk-consulting-business-card.jpg"
           alt="Infinite Grace YBK Consulting business card"

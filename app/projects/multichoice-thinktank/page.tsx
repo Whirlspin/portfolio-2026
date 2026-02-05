@@ -10,7 +10,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "MultiChoice ThinkTank • Jethro Edwards' portfolio website",
-  description: "",
+  description:
+    "ThinkTank is a digital tool designed to empower MultiChoice employees to find solutions to common business challenges.",
 };
 
 export default function multichoiceThinkTank() {
@@ -23,7 +24,7 @@ export default function multichoiceThinkTank() {
         heading="Headless CMS for ThinkTank"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="MultiChoice: ThinkTank" />
         <p>
           <strong>ThinkTank</strong> is a digital tool designed to empower
@@ -52,7 +53,7 @@ export default function multichoiceThinkTank() {
         </Link>
       </main>
 
-      <div className="container mx-auto max-w-7xl px-6 lg:px-0 pb-28">
+      <div className="container mx-auto max-w-7xl px-6 lg:px-0 pb-16 md:pb-28">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Mobile view  */}
           <Image

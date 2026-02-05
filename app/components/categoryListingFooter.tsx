@@ -10,8 +10,8 @@ export default function CategoryListingFooter({
   categoryChoose,
 }: CategoryListingFooterProps) {
   return (
-    <section className="container mx-auto max-w-7xl px-6 mb-28">
-      <hr className="bg-stone-200 h-0.5 border-0 mb-28" />
+    <section className="container mx-auto max-w-7xl px-6 mb-16 md:mb-28">
+      <hr className="bg-stone-200 h-0.5 border-0 mb-16 md:mb-28" />
 
       {/* More like this title */}
       <Image

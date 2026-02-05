@@ -23,7 +23,7 @@ export default function inQuba() {
         subheading="inQuba"
         heading="Customer journey mapping software"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="inQuba: Customer journey mapping software" />
         <h3>About the role</h3>
         <p>
@@ -89,9 +89,9 @@ export default function inQuba() {
       </main>
 
       {/* UX approach  */}
-      <section className="w-full bg-stone-100 py-28">
+      <section className="w-full bg-stone-100 py-16 md:py-28">
         <div className="container mx-auto max-w-4xl">
-          <h3 className="mb-6">Design process</h3>
+          <h3 className="mb-6 px-6 lg:px-0">Design process</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 lg:px-0 ">
             <div className="mx-auto sm:mx-0 w-8/12 sm:w-full">
               <Image
@@ -177,7 +177,7 @@ export default function inQuba() {
       </section>
 
       {/* User persona */}
-      <section className="container mx-auto max-w-7xl px-6 py-28">
+      <section className="container mx-auto max-w-7xl px-6 py-16 md:py-28">
         <div className="lg:w-9/12 mx-auto">
           <h3>User persona</h3>
           <p className="mb-5!">
@@ -356,7 +356,7 @@ export default function inQuba() {
       </section>
 
       {/* Information architecture  */}
-      <section className="w-full bg-stone-100 py-28">
+      <section className="w-full bg-stone-100 py-16 md:py-28">
         <div className="container mx-auto max-w-7xl px-6">
           <div className="lg:w-9/12 mx-auto mb-10">
             <h3>Information architecture</h3>
@@ -383,7 +383,7 @@ export default function inQuba() {
       </section>
 
       {/* UI guidelines */}
-      <section className="container mx-auto max-w-7xl px-6 pt-28 pb-12">
+      <section className="container mx-auto max-w-7xl px-6 py-16 md:pt-28 pb-12">
         <div className="lg:w-9/12 mx-auto">
           <h3>UI guidelines</h3>
           <p>

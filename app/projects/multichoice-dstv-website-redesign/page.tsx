@@ -23,7 +23,7 @@ export default function multichoiceDstvWebsiteRedesign() {
         heading="DStv Self Service website redesign"
       />
       {/* Introduction  */}
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28 mb-20">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-8 md:mb-20">
         <BreadcrumbNav projectTitle=" MultiChoice: DStv Self Service website redesign" />
         <h3>Usability Challenges</h3>
         <p className="mb-5!">
@@ -100,7 +100,7 @@ export default function multichoiceDstvWebsiteRedesign() {
       </main>
 
       {/* Content is King  */}
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <h3>Content is King</h3>
         <p>
           A user-centered website relies heavily on its Information Architecture
@@ -272,7 +272,7 @@ export default function multichoiceDstvWebsiteRedesign() {
       </section>
 
       {/* Iconography  */}
-      <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap text-center gap-4 mb-28">
+      <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap text-center gap-4 mb-16 md:mb-28">
         <h6 className="text-white!">
           All icons were further refined in Adobe Illustrator.
         </h6>
@@ -338,7 +338,7 @@ export default function multichoiceDstvWebsiteRedesign() {
         />
       </div>
 
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <h3>Outcomes</h3>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <ul>
@@ -369,7 +369,7 @@ export default function multichoiceDstvWebsiteRedesign() {
         width={1920}
         height={1288}
         alt="Accounts page"
-        className="w-full h-auto mb-20"
+        className="w-full h-auto mb-16"
       />
 
       <CategoryListingFooter categoryChoose="UI/UX" />

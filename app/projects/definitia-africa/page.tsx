@@ -10,8 +10,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Definitia Africa • Jethro Edwards' portfolio website",
-  description:
-    "Definitia Africa website design & WordPress build project by Jethro Edwards.",
+  description: "Definitia Africa website design & WordPress build project.",
 };
 
 export default function definitiaAfrica() {
@@ -23,7 +22,7 @@ export default function definitiaAfrica() {
         subheading="Definitia Africa"
         heading=" Website design & WordPress build"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="Definitia Africa" />
         <p className="mb-5!">
           I love an independent website request like this one where the client
@@ -38,7 +37,7 @@ export default function definitiaAfrica() {
         </p>
 
         <h3>Freelance work</h3>
-        <p className="pb-5">
+        <p>
           Website design • Photoshop • Logo design • WordPress (BeTheme) •
           Domain, E-mail & hosting • SEO basics
         </p>
@@ -70,7 +69,7 @@ export default function definitiaAfrica() {
         alt="Definitia Africa website homepage"
         width={1920}
         height={1540}
-        className="w-full h-auto"
+        className="w-full h-auto mb-28"
       />
 
       <CategoryListingFooter categoryChoose="WordPress" />

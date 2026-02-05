@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 export default function MyProjects() {
   return (
     <motion.section
-      className="w-full my-36 px-6"
+      className="w-full my-16 md:my-36 px-6"
       initial={{ opacity: 0, y: 48, filter: "blur(20px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 0.7, ease: "easeOut" }}
@@ -27,7 +27,7 @@ export default function MyProjects() {
             user-tested interfaces that customers love to use.
           </p>
         </div>
-        <div className="flex-1 lg:text-right align-bottom pb-4 pt-8">
+        <div className="flex-1 lg:text-right align-bottom py-4">
           <Link
             href="/projects"
             className="font-semibold text-4xl underline decoration-red-700 underline-offset-16 decoration-2 transition duration-300 hover:decoration-red-700/0 hover:text-red-700"
@@ -53,7 +53,7 @@ export default function MyProjects() {
                 <h5 className="text-2xl! text-black! font-bold! mb-3 group-hover:text-orange-600! transition-all duration-600">
                   Customer journey mapping software
                 </h5>
-                <p className="text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   UI designs • Customer journey mapping • Style guide •
                   Prototypes • Front-end components • Design process &rsaquo;
                 </p>
@@ -74,7 +74,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-green-400! transition-all duration-600">
                   Design system
                 </h5>
-                <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   Build all UI elements • Extend Figma's styles to component
                   patterns with on/off switches • Build interchangeable assets
                   between devices
@@ -96,7 +96,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-yellow-300! transition-all duration-600">
                   Style guide
                 </h5>
-                <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   Comprehensive style guide • Colours, typography, components
                 </p>
               </div>
@@ -116,7 +116,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-violet-300! transition-all duration-600">
                   Infinite Grace
                 </h5>
-                <p className="text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   'Design-and-build' WordPress content publishing website
                 </p>
               </div>
@@ -136,7 +136,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-teal-300! transition-all duration-600">
                   Landing & login pages
                 </h5>
-                <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   Original design • Frontend development - HTML5, CSS
                   (Bootstrap) & jQuery • Brand (logo) identity
                 </p>
@@ -157,7 +157,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-3 group-hover:text-slate-400! transition-all duration-600">
                   Self service mobile app
                 </h5>
-                <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   Wireframing • UI design • Manage & delegate work among team
                   members • Interactive prototype in UXPin
                 </p>
@@ -178,7 +178,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-2 group-hover:text-sky-300! transition-all duration-600">
                   ThinkTank
                 </h5>
-                <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   Headless CMS • WordPress custom theme
                 </p>
               </div>
@@ -198,7 +198,7 @@ export default function MyProjects() {
                 <h5 className="text-white! text-2xl! font-bold! mb-2! group-hover:text-rose-300!  transition-all duration-600">
                   Giftalot
                 </h5>
-                <p className="text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
+                <p className="invisible sm:visible text-white! text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   'Design-and-build' e-commerce WordPress website
                 </p>
               </div>

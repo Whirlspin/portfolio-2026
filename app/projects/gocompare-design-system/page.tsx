@@ -23,7 +23,7 @@ export default function goCompareDesignSystem() {
         heading="Design system for all insurance question sets"
       />
       {/* Introduction  */}
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Design system" />
         <h3>Summary</h3>
         <p>
@@ -71,12 +71,12 @@ export default function goCompareDesignSystem() {
 
       {/* Atomic design  */}
       <section
-        className="w-full bg-emerald-50 py-28"
+        className="w-full bg-emerald-50 py-16 md:py-28"
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0% 100%)",
         }}
       >
-        <div className="container mx-auto max-w-4xl px-6 lg:px-0 pb-16">
+        <div className="container mx-auto max-w-4xl px-6 lg:px-0 pb:8 md:pb-16">
           <h3>Atomic design: Start by defining all atoms</h3>
           <p>
             From a clean slate I defined all the individual elements (colours,
@@ -117,7 +117,7 @@ export default function goCompareDesignSystem() {
         </div>
       </section>
 
-      <figure className="container mx-auto max-w-5xl px-6 lg:px-0 py-28">
+      <figure className="container mx-auto max-w-5xl px-6 lg:px-0 py-8 md:py-28">
         <Image
           src="/projects/goco-design-system-switches.png"
           width={1112}

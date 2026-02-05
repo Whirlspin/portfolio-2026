@@ -22,7 +22,7 @@ export default function multichoiceIconnectAfrica() {
         heading="Creative design for iConnect Africa"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="MultiChoice: iConnect Africa" />
         <p>
           iConnect Africa is a SharePoint intranet for MultiChoice employees. I
@@ -37,7 +37,7 @@ export default function multichoiceIconnectAfrica() {
         </p>
       </main>
 
-      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-iconnect-cricket-bat.jpg"
           alt="iConnect Africa Cricket Bat Theme"
@@ -54,7 +54,7 @@ export default function multichoiceIconnectAfrica() {
         </figcaption>
       </figure>
 
-      <section className="container max-w-full grid grid-cols-1 lg:grid-cols-2 gap-4 mb-28">
+      <section className="container max-w-full grid grid-cols-1 lg:grid-cols-2 gap-4 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-iconnect-theme-1.jpg"
           alt="iConnect Africa Theme 1"
@@ -81,7 +81,7 @@ export default function multichoiceIconnectAfrica() {
         />
       </section>
 
-      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-iconnect-theme-fullsize.jpg"
           alt="iConnect Africa full size image"
@@ -96,7 +96,7 @@ export default function multichoiceIconnectAfrica() {
         </figcaption>
       </figure>
 
-      <section className="container max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 mb-28">
+      <section className="container max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-iconnect-wireframe.jpg"
           alt="iConnect Africa layout"

@@ -3,7 +3,7 @@ import Tooltip from "./tooltip";
 
 export default function TechStack() {
   return (
-    <section className="w-full bg-white px-3 mb-36">
+    <section className="w-full bg-white px-3 mb-16 md:mb-36">
       <div className="container mx-auto max-w-7xl">
         <Image
           src="/text-tech-stack.svg"
@@ -15,7 +15,7 @@ export default function TechStack() {
 
         <div className="flex flex-wrap gap-y-3">
           {/* Design */}
-          <div className="mr-10 flex items-center gap-3">
+          <div className="sm:mr-10 flex items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Design
             </h5>
@@ -31,10 +31,16 @@ export default function TechStack() {
               imageSrc="/tech-stack-miro.svg"
               altText="Miro"
             />
+
+            <Tooltip
+              tooltiptext="Affinity"
+              imageSrc="/tech-stack-affinity.svg"
+              altText="Affinity"
+            />
           </div>
 
           {/* Development */}
-          <div className="mr-10 flex items-center gap-3">
+          <div className="sm:mr-10 flex flex-wrap items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Development
             </h5>
@@ -58,12 +64,6 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="VS Code"
-              imageSrc="/tech-stack-vscode.svg"
-              altText="VS Code"
-            />
-
-            <Tooltip
               tooltiptext="React"
               imageSrc="/tech-stack-react.svg"
               altText="React"
@@ -77,7 +77,7 @@ export default function TechStack() {
           </div>
 
           {/* Tools */}
-          <div className="mr-10 flex items-center gap-3">
+          <div className="sm:mr-10 flex flex-wrap items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Tools
             </h5>

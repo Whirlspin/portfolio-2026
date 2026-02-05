@@ -25,7 +25,7 @@ export default function multichoiceLandingLoginPages() {
         heading="Landing & login pages"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="Multichoice: Landing & login pages" />
         <h3>Web portal applications</h3>
         <p>
@@ -51,7 +51,7 @@ export default function multichoiceLandingLoginPages() {
         </Link>
       </main>
 
-      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-webportal-wireframe.png"
           alt="Multichoice web portal wireframe"
@@ -63,7 +63,7 @@ export default function multichoiceLandingLoginPages() {
         </figcaption>
       </figure>
 
-      <figure className="container mx-auto max-w-sm px-6 lg:px-0 mb-28">
+      <figure className="container mx-auto max-w-sm px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src="/projects/multichoice-webportal-icons.jpg"
           alt="Multichoice web portal logos"

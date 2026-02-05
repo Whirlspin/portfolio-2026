@@ -22,7 +22,7 @@ export default function multichoiceMobileApp() {
         subheading="MultiChoice"
         heading="Self service mobile application"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="MultiChoice: Self service mobile application" />
         <h3>Customers spoke, we listened</h3>
         <p>
@@ -79,7 +79,7 @@ export default function multichoiceMobileApp() {
         />
       </section>
 
-      <div className="container mx-auto max-w-2xl -mt-98 sm:-mt-80 mb-28 p-6">
+      <div className="container mx-auto max-w-2xl -mt-98 sm:-mt-80 mb-16 md:mb-28 p-6">
         <Image
           src="/projects/multichoice-mobile-app-handheld-design.jpg"
           width={1195}
@@ -89,7 +89,7 @@ export default function multichoiceMobileApp() {
         />
       </div>
 
-      <div className="container max-w-96 mx-auto p-6 mb-28">
+      <div className="container max-w-96 mx-auto p-6 mb-16 md:mb-28">
         <video
           className="w-full h-auto max-w-full rounded border border-stone-300"
           autoPlay

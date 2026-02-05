@@ -27,7 +27,7 @@ export default function HomepageIntro() {
       <Logo />
 
       {/* Intro animation */}
-      <div className="px-3 pt-14 pb-48">
+      <div className="px-3 pt-14 pb-3.5 md:pb-48">
         <div className="container mx-auto lg:max-w-6xl lg:flex items-center">
           <motion.div
             className="relative z-50 px-12 lg:px-0 lg:w-1/2 flex justify-center"

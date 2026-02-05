@@ -10,7 +10,7 @@ import Footer from "@/app/components/footer";
 export const metadata: Metadata = {
   title: "Go Compare's preference centre • Jethro Edwards' portfolio website",
   description:
-    "A preference centre allowing users to manage their marketing communications.",
+    "A new feature where customers can manage their marketing communication.",
 };
 
 export default function goComparePreferenceCentre() {
@@ -23,7 +23,7 @@ export default function goComparePreferenceCentre() {
         heading="Email settings on the 'Preference Centre'"
       />
       {/* Introduction  */}
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="Go.Compare: Preference Centre" />
         <h3>Background</h3>
         <p>
@@ -61,8 +61,8 @@ export default function goComparePreferenceCentre() {
       </main>
 
       {/* The strategy */}
-      <section className="w-full bg-green-50 py-28 mb-28">
-        <div className="container mx-auto max-w-4xl px-6 lg:px-0 pb-16">
+      <section className="w-full bg-green-50 py-16 md:py-28 mb-16 md:mb-28">
+        <div className="container mx-auto max-w-4xl px-6 lg:px-0">
           <div className="flex flex-col md:flex-row gap-9">
             <div className="md:w-8/12">
               <h3>The strategy</h3>
@@ -98,7 +98,7 @@ export default function goComparePreferenceCentre() {
         </div>
       </section>
 
-      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src="/projects/goco-preference-wireframe.png"
           alt="Wireframes"
@@ -162,7 +162,7 @@ export default function goComparePreferenceCentre() {
         </ul>
       </section>
 
-      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-28">
+      <figure className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <Image
           src={"/projects/goco-preference-design.png"}
           alt="Final design"

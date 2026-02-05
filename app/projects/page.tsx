@@ -21,7 +21,7 @@ export default function Projects() {
     <>
       <Logo />
       <div className="container mx-auto max-w-7xl px-3 mb-28 mt-8">
-        <header className="space-y-6 mb-20">
+        <header className="space-y-6 mb-16">
           <Image
             className="mx-auto"
             src="/projects/text-projects.svg"

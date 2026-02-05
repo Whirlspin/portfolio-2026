@@ -22,7 +22,7 @@ export default function giftalotAfrica() {
         subheading="Giftalot Africa"
         heading="eCommerce WordPress website"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28">
         <BreadcrumbNav projectTitle="Giftalot Africa: eCommerce WordPress website" />
         <h3>Summary</h3>
         <p>
@@ -65,7 +65,7 @@ export default function giftalotAfrica() {
             />
           </div>
         </div>
-        <div className="flex align-center justify-center my-28">
+        <div className="flex align-center justify-center my-16 md:my-28">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Who says you need a fancy studio to achieve quality product shots?{" "}
@@ -87,7 +87,7 @@ export default function giftalotAfrica() {
         </div>
       </main>
 
-      <div className="container mx-auto max-w-7xl mb-28">
+      <div className="container mx-auto max-w-7xl mb-16 md:mb-28">
         <Image
           src="/projects/giftalot-merry-giftmas.jpg"
           alt="Giftalot Africa website screenshot 1"
@@ -115,7 +115,7 @@ export default function giftalotAfrica() {
         />
         <h5 className="p-4 bg-stone-100">
           On a shoestring budget all photography was completed in the spare
-          bedroom against a plain white voile curtain that provided an 'infinity
+          bedroom against a plain white voile curtain that faked an 'infinity
           backdrop'. <i>See the end result below.</i>
         </h5>
         <Image
@@ -123,7 +123,7 @@ export default function giftalotAfrica() {
           alt="Giftalot Africa Email marketing"
           width={720}
           height={1882}
-          className="rounded border border-stone-200 mt-6 mb-28"
+          className="rounded border border-stone-200 mt-6 mb-16 md:mb-28"
         />
       </div>
 
