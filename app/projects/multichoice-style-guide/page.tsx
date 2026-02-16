@@ -25,9 +25,9 @@ export default function multichoiceStyleGuide() {
       <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="MultiChoice: Department style guide" />
         <p>
-          The department style guide is an excellent resource for all work
-          colleagues to reference the standards, corporate colours, font usage,
-          frontend development guidelines and various downloads.
+          The department style guide is a simple and to the point resource for
+          work colleagues to reference the standards, corporate colours, font
+          usage, frontend development guidelines and various downloads.
         </p>
 
         <h3>Individual exercise</h3>

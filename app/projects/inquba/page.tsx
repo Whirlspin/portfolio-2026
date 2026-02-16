@@ -26,14 +26,17 @@ export default function inQuba() {
       <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
         <BreadcrumbNav projectTitle="inQuba: Customer journey mapping software" />
         <h3>About the role</h3>
-        <p>
+        <p className="mb-5!">
           <strong>inQuba</strong> (employed: 2020 - 2023) is a fast paced
           software company (B2B SaaS) where one must get stuck in and start
           ideating immediately with wireframes so as to solve business
-          requirements. Being a small organisation and seeing I'm the
-          only/principal product designer, its rewarding when my UI designs come
-          to life within a software production environment.
-          <i> My work below highlight the design process I use.</i>
+          requirements.{" "}
+        </p>
+        <p>
+          Being a small organisation and seeing I'm the only/principal product
+          designer, its rewarding to see my UI designs come to life within a
+          software production environment. My work below highlight the design
+          process I use.
         </p>
         <div className="flex flex-row flex-wrap gap-9">
           <div className="flex flex-row items-center gap-3">
@@ -355,30 +358,54 @@ export default function inQuba() {
         </div>
       </section>
 
-      {/* Information architecture  */}
+      {/* Information architecture (pain point) */}
       <section className="w-full bg-stone-100 py-16 md:py-28">
         <div className="container mx-auto max-w-7xl px-6">
           <div className="lg:w-9/12 mx-auto mb-10">
-            <h3>Information architecture</h3>
+            <h3>Information architecture (pain point)</h3>
             <p className="mb-5!">
-              My job entails creating an experience that allows the user to
-              focus on their tasks, not on finding their way around the
-              platform. With this in mind I started a user flow at its highest,
-              most simplest level (see below).
+              My role centres on crafting intuitive user experiences that let
+              people concentrate on achieving their goals and delivering
+              results, rather than wrestling with a convoluted interface or
+              navigation.
             </p>
+
             <p>
-              Within a collaborative environment, the product team (myself and
-              two other colleagues) explored numerous user flow scenarios that
-              are always evolving as business requirements keep changing.
+              I explored <strong>high-level user flows</strong> (kept at their
+              simplest, most essential level — see example below). These flows
+              remain dynamic and evolve in response to shifting business
+              requirements and emerging priorities.
             </p>
           </div>
 
           <Image
             src="/projects/inquba-sitemap.png"
             alt="inQuba sitemap"
-            width={1203}
-            height={649}
+            width={1230}
+            height={333}
+            className="mb-10"
           />
+
+          <figcaption className="md:w-8/12 mx-auto mb-10">
+            <h5 className="bg-white border border-stone-200 p-4 text-center">
+              Navigation was complex and overwhelming, especially for new users.
+            </h5>
+          </figcaption>
+
+          <Image
+            src="/projects/inquba-user-flow.png"
+            alt="inQuba user-flow"
+            width={1203}
+            height={469}
+            className="mb-10"
+          />
+
+          <figcaption className="md:w-8/12 mx-auto mb-10">
+            <h5 className="bg-white border border-stone-200 p-4 text-center">
+              A UX technique I encourage is one where user flows are established
+              first and complex navigation (capabilities) works around it.
+            </h5>
+          </figcaption>
         </div>
       </section>
 
@@ -469,8 +496,11 @@ export default function inQuba() {
               By dramatically enhancing each touch point's capability on the
               customer journey map (Sankey Diagram) into an autonomous tool that
               drives all the capability in the software is probably my most
-              worthwhile contribution. This main feature really resonates with
-              our users and probably makes it stand apart from the competition.
+              worthwhile contribution.
+            </p>
+            <p>
+              This approach resonates with users and probably makes it stand
+              apart from the competition.
             </p>
           </div>
         </div>

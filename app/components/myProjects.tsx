@@ -55,7 +55,7 @@ export default function MyProjects() {
                 </h5>
                 <p className="invisible sm:visible text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
                   UI designs • Customer journey mapping • Style guide •
-                  Prototypes • Front-end components • Design process &rsaquo;
+                  Prototypes • Product vision • Design process
                 </p>
               </div>
             </Link>
@@ -97,7 +97,7 @@ export default function MyProjects() {
                   Style guide
                 </h5>
                 <p className="invisible sm:visible text-white text-base! leading-normal! opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mt-1 h-12 mb-0!">
-                  Comprehensive style guide • Colours, typography, components
+                  Simple style guide • Colours, typography, downloads...
                 </p>
               </div>
             </Link>
