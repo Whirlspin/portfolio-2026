@@ -23,13 +23,16 @@ export default function valverdeCountryHotel() {
         heading="Valverde Country Hotel"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-10 md:mb-20">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-10 md:mb-20"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="Valverde Country Hotel" />
 
         <h3>All marketing material</h3>
         <p className="pb-5">
-          Graphic design • Brand identity • Responsive WordPress theming •
-          E-mail marketing • 20+ years ago
+          Graphic design • Brand identity • Custom responsive WordPress theming
+          • Many E-mail marketing campaigns • 20+ years ago
         </p>
 
         <Image

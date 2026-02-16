@@ -23,7 +23,10 @@ export default function inQubaDynamicDialogues() {
         heading="Dynamic Dialogues ideation exercise"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="inQuba: Dynamic Dialogues ideation exercise" />
         <h3>Problem statement</h3>
         <p>

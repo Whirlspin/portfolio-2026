@@ -20,7 +20,7 @@ export default function privacyPolicy() {
         subheading=""
         heading="Privacy policy"
       />
-      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28">
+      <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28" id="main">
         <BreadcrumbNav projectTitle="Privacy policy" />
 
         <p className="mb-5!">

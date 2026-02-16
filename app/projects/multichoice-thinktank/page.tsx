@@ -53,7 +53,10 @@ export default function multichoiceThinkTank() {
         </Link>
       </main>
 
-      <div className="container mx-auto max-w-7xl px-6 lg:px-0 pb-16 md:pb-28">
+      <div
+        className="container mx-auto max-w-7xl px-6 lg:px-0 pb-16 md:pb-28"
+        id="main"
+      >
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* Mobile view  */}
           <Image

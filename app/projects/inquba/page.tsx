@@ -23,7 +23,7 @@ export default function inQuba() {
         subheading="inQuba"
         heading="Customer journey mapping software"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
+      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28" id="main">
         <BreadcrumbNav projectTitle="inQuba: Customer journey mapping software" />
         <h3>About the role</h3>
         <p className="mb-5!">

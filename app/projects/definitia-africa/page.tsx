@@ -22,7 +22,10 @@ export default function definitiaAfrica() {
         subheading="Definitia Africa"
         heading=" Website design & WordPress build"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="Definitia Africa" />
         <p className="mb-5!">
           I love an independent website request like this one where the client

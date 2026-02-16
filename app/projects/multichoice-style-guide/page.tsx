@@ -22,7 +22,10 @@ export default function multichoiceStyleGuide() {
         subheading="MultiChoice"
         heading="Department style guide"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="MultiChoice: Department style guide" />
         <p>
           The department style guide is a simple and to the point resource for

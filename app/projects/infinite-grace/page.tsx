@@ -24,10 +24,13 @@ export default function infiniteGrace() {
         heading=" A full turnkey solution"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pb-4 pt-16 md:py-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 pb-4 pt-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="Infinite Grace" />
         <p className="mb-5!">
-          Infinite Grace, formerly known as 'Strokes of Grace', narrates the
+          Infinite Grace, formerly known as "Strokes of Grace", narrates the
           incredible journey of Yvonne Kgame as she triumphs over a
           life-threatening double stroke. Drawing from her experience, she
           offers inspiration through her books and online platforms.

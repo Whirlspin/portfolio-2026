@@ -23,7 +23,10 @@ export default function multichoiceDstvWebsiteRedesign() {
         heading="DStv Self Service website redesign"
       />
       {/* Introduction  */}
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-8 md:mb-20">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28 mb-8 md:mb-20"
+        id="main"
+      >
         <BreadcrumbNav projectTitle=" MultiChoice: DStv Self Service website redesign" />
         <h3>Usability Challenges</h3>
         <p className="mb-5!">

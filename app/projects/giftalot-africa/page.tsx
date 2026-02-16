@@ -22,7 +22,10 @@ export default function giftalotAfrica() {
         subheading="Giftalot Africa"
         heading="eCommerce WordPress website"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 pt-16 md:pt-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="Giftalot Africa: eCommerce WordPress website" />
         <h3>Summary</h3>
         <p>

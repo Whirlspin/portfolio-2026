@@ -22,7 +22,10 @@ export default function multichoiceReducingErrors() {
         heading="Reducing errors & failures on MultiChoice Africa platforms"
       />
 
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="MultiChoice: Reducing errors" />
         <h3>Problem: Unhappy Users = Higher Support Costs</h3>
         <p>
