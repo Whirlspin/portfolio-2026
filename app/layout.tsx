@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
@@ -39,9 +40,10 @@ export default function RootLayout({
 
         <GoogleAnalytics gaId="G-CQ1BK93JHL" />
         <SpeedInsights />
+        <Analytics />
 
         {/* Hotjar  */}
-        <Script strategy="afterInteractive">
+        <Script id="hotjar" strategy="afterInteractive">
           {`(function(h,o,t,j,a,r){
     h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
     h._hjSettings={hjid:6625273,hjsv:6};
