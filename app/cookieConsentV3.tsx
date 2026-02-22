@@ -110,6 +110,12 @@ export default function CookieConsentV3() {
                         description: "Cookie set by Hotjar",
                         expiration: "30 minutes",
                       },
+                      {
+                        name: "_va",
+                        domain: "Vercel Analytics",
+                        description: "Cookie set by Vercel Analytics",
+                        expiration: "30 days",
+                      },
                     ],
                   },
                 },
