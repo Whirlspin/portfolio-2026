@@ -60,8 +60,8 @@ export default function HomepageIntro() {
             <p className="text-white mb-7">
               I bring 20+ years of design experience.
               <br />
-              At my core, I'm a problem solver who loves turning challenges into
-              simple, intuitive solutions.
+              At my core, I'm a problem solver who enjoys turning challenges
+              into simple, intuitive solutions.
             </p>
 
             <p className=" text-white mb-7">

@@ -15,13 +15,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Jethro Edwards • Website design and development",
   description:
-    "I specialise in creating user-friendly websites that help businesses grow online.",
+    "I specialise in creating user-friendly websites that help businesses grow online. Trowbridge, Wiltshire.",
   openGraph: {
     url: "https://www.jethroedwards.com/",
     type: "website",
     title: "Jethro Edwards • Website design and development",
     description:
-      "I specialise in creating user-friendly websites that help businesses grow online.",
+      "I specialise in creating user-friendly websites that help businesses grow online. Trowbridge, Wiltshire.",
     images: "/opengraph-logo.png",
   },
 };

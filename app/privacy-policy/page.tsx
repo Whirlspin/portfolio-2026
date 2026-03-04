@@ -24,7 +24,7 @@ export default function privacyPolicy() {
         <BreadcrumbNav projectTitle="Privacy policy" />
 
         <p className="mb-5!">
-          <strong>Last updated:</strong> January, 2026
+          <strong>Last updated:</strong> January, 2026. Trowbridge, Wiltshire.
         </p>
         <p className="mb-5!">
           Jethro Edwards (&quot;I&quot;, &quot;me&quot;, &quot;my&quot;, or
