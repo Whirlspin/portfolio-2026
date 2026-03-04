@@ -27,7 +27,7 @@ export default function HomepageIntro() {
       <Logo />
 
       {/* Intro animation */}
-      <div className="px-3 pt-14 pb-3.5 md:pb-48">
+      <div className="px-3 pt-14 pb-4 md:pb-48">
         <div className="container mx-auto lg:max-w-6xl lg:flex items-center">
           <motion.div
             className="relative z-50 px-12 lg:px-0 lg:w-1/2 flex justify-center"
@@ -58,21 +58,20 @@ export default function HomepageIntro() {
               className="mb-8"
             />
             <p className="text-white mb-7">
-              With over 20 years of experience I have contributed from small,
-              independent operations to leading a UX design team within a
-              corporate environment.
+              I bring 20+ years of design experience.
+              <br />
+              At my core, I'm a problem solver who loves turning challenges into
+              simple, intuitive solutions.
             </p>
 
             <p className=" text-white mb-7">
-              I consider myself a problem solver at the core as I enjoy turning
-              obstacles into simple and intuitive designs. I have also built up
-              a good front-end development skill set to bring designs to life on
-              the web.
+              I've also developed strong front-end development skills that let
+              me bring designs to life on the web.
             </p>
 
             <p className=" text-white mb-10">
-              I thrive in lead roles and am quite comfortable working from
-              concept to completion on projects.
+              I thrive in lead roles and enjoy taking projects from initial
+              concept all the way through to completion.
             </p>
 
             <div className="px-6 py-4 border-2 h-20 sm:h-auto border-stone-700 bg-stone-800 rounded-lg flex items-center gap-4">

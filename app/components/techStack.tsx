@@ -13,7 +13,7 @@ export default function TechStack() {
           className="mb-8"
         />
 
-        <div className="flex flex-wrap gap-y-3">
+        <div className="flex flex-wrap gap-y-6">
           {/* Design */}
           <div className="sm:mr-10 flex items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
@@ -40,7 +40,7 @@ export default function TechStack() {
           </div>
 
           {/* Development */}
-          <div className="sm:mr-10 flex flex-wrap items-center gap-3">
+          <div className="sm:mr-10 flex flex-nowrap items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Development
             </h5>
@@ -62,6 +62,13 @@ export default function TechStack() {
               imageSrc="/tech-stack-typescript.svg"
               altText="TypeScript"
             />
+          </div>
+
+          {/* Tech  */}
+          <div className="sm:mr-10 flex flex-nowrap items-center gap-3">
+            <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
+              Tech
+            </h5>
 
             <Tooltip
               tooltiptext="React"
@@ -74,10 +81,22 @@ export default function TechStack() {
               imageSrc="/tech-stack-tailwind.svg"
               altText="Tailwind CSS"
             />
+
+            <Tooltip
+              tooltiptext="Next.js"
+              imageSrc="/tech-stack-nextjs.svg"
+              altText="Next.js"
+            />
+
+            <Tooltip
+              tooltiptext="WordPress"
+              imageSrc="/tech-stack-wordpress.svg"
+              altText="WordPress"
+            />
           </div>
 
           {/* Tools */}
-          <div className="sm:mr-10 flex flex-wrap items-center gap-3">
+          <div className="sm:mr-10 flex flex-nowrap items-center gap-3">
             <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
               Tools
             </h5>
@@ -95,10 +114,23 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="Hostinger"
-              imageSrc="/tech-stack-hostinger.svg"
-              altText="Hostinger"
+              tooltiptext="Github"
+              imageSrc="/tech-stack-github.svg"
+              altText="Github"
             />
+
+            <Tooltip
+              tooltiptext="Mailchimp"
+              imageSrc="/tech-stack-mailchimp.svg"
+              altText="Mailchimp"
+            />
+          </div>
+
+          {/* Hosting */}
+          <div className="sm:mr-10 flex flex-nowrap items-center gap-3">
+            <h5 className="text-black! bg-stone-100 px-4 py-2 inline-block rounded">
+              Hosting
+            </h5>
 
             <Tooltip
               tooltiptext="Vercel"
@@ -107,21 +139,15 @@ export default function TechStack() {
             />
 
             <Tooltip
-              tooltiptext="Next.js"
-              imageSrc="/tech-stack-nextjs.svg"
-              altText="Next.js"
+              tooltiptext="Hostinger"
+              imageSrc="/tech-stack-hostinger.svg"
+              altText="Hostinger"
             />
 
             <Tooltip
-              tooltiptext="WordPress"
-              imageSrc="/tech-stack-wordpress.svg"
-              altText="WordPress"
-            />
-
-            <Tooltip
-              tooltiptext="Github"
-              imageSrc="/tech-stack-github.svg"
-              altText="Github"
+              tooltiptext="Hetzner"
+              imageSrc="/tech-stack-hetzner.svg"
+              altText="Hetzner"
             />
           </div>
         </div>

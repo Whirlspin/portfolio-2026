@@ -28,7 +28,7 @@ export default function Contact() {
               alt="Share the love - let's work together"
               width={524}
               height={524}
-              className="rounded-lg"
+              className="rounded-lg shadow-xl/20 border-2 border-red-100"
             />
           </div>
         </div>

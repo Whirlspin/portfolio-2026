@@ -27,10 +27,10 @@ export default function MyProjects() {
             user-tested interfaces that customers love to use.
           </p>
         </div>
-        <div className="flex-1 lg:text-right align-bottom py-4">
+        <div className="flex-1 text-center lg:text-right align-bottom py-4">
           <Link
             href="/projects"
-            className="font-semibold text-4xl underline decoration-red-700 underline-offset-16 decoration-2 transition duration-300 hover:decoration-red-700/0 hover:text-red-700"
+            className="font-semibold text-2xl md:text-4xl underline decoration-red-700 underline-offset-16 decoration-2 transition duration-300 hover:decoration-red-700/0 hover:text-red-700"
           >
             See all projects &rsaquo;
           </Link>
@@ -38,7 +38,7 @@ export default function MyProjects() {
       </div>
 
       {/* Projects */}
-      <div className="container mx-auto max-w-7xl pt-16">
+      <div className="container mx-auto max-w-7xl pt-8 md:pt-16">
         <div className="grid lg:grid-cols-4 grid-rows-[repeat(8,282px)] lg:grid-rows-[repeat(4,282px)] gap-2">
           {/* inQuba  */}
           <div className="group bg-[url(/homepage-inquba.webp)] bg-center bg-cover border border-stone-300 lg:col-span-2 lg:row-span-2 rounded-lg">
