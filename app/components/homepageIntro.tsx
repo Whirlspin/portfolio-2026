@@ -57,19 +57,19 @@ export default function HomepageIntro() {
               alt="About me"
               className="mb-8"
             />
-            <p className="text-white mb-7">
+            <p className="text-white mb-7!">
               I bring 20+ years of design experience.
               <br />
               At my core, I'm a problem solver who enjoys turning challenges
               into simple, intuitive solutions.
             </p>
 
-            <p className=" text-white mb-7">
-              I've also developed strong front-end development skills that let
-              me bring designs to life on the web.
+            <p className=" text-white mb-7!">
+              I’ve also developed front-end development skills that let me bring
+              designs to life on the web.
             </p>
 
-            <p className=" text-white mb-10">
+            <p className=" text-white mb-10!">
               I thrive in lead roles and enjoy taking projects from initial
               concept all the way through to completion.
             </p>
