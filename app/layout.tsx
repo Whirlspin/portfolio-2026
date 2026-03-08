@@ -13,7 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jethro Edwards • Website design and development",
+  title:
+    "Jethro Edwards • Website design and development. Trowbridge, Wiltshire.",
   description:
     "I specialise in creating user-friendly websites that help businesses grow online. Trowbridge, Wiltshire.",
   openGraph: {

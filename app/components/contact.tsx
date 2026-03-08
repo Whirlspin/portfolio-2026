@@ -16,7 +16,7 @@ export default function Contact() {
               className="mb-6"
             />
             <h5 className="text-black! mb-8">
-              I'm always open to discussing new projects or collaborations.
+              I'm always open to discussing new projects and collaborations.
               Based in Trowbridge, Wiltshire.
             </h5>
 
@@ -28,7 +28,7 @@ export default function Contact() {
               alt="Share the love - let's work together"
               width={524}
               height={524}
-              className="rounded-lg shadow-xl/20 border-2 border-red-100"
+              className="rounded-lg shadow-xl/20 border-2 border-red-700/40"
             />
           </div>
         </div>
