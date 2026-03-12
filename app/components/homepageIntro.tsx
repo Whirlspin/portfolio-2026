@@ -58,14 +58,12 @@ export default function HomepageIntro() {
               className="mb-8"
             />
             <p className="text-white mb-7!">
-              I bring 20+ years of design experience.
-              <br />
-              At my core, I'm a problem solver who enjoys turning challenges
-              into simple, intuitive solutions.
+              With 20+ years of design experience, I specialise in translating
+              user needs into simple and intuitive digital experiences.
             </p>
 
             <p className=" text-white mb-7!">
-              I’ve also developed front-end development skills that let me bring
+              I've also developed front-end development skills that let me bring
               designs to life on the web.
             </p>
 
