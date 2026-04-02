@@ -21,7 +21,7 @@ export default function TechStack() {
             </h5>
 
             <Tooltip
-              tooltiptext="Figma"
+              tooltiptext="Figma & FigJam"
               imageSrc="/tech-stack-figma.svg"
               altText="Figma"
             />
