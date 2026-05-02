@@ -27,6 +27,9 @@ export default function multichoiceStyleGuide() {
         id="main"
       >
         <BreadcrumbNav projectTitle="MultiChoice: Department style guide" />
+        <small className="uppercase font-semibold text-stone-500">
+          MultiChoice Africa. Randburg, South Africa: 2013 - 2018
+        </small>
         <p>
           The department style guide is a simple and to the point resource for
           work colleagues to reference the standards, corporate colours, font
@@ -39,7 +42,7 @@ export default function multichoiceStyleGuide() {
           HTML5 & CSS (Bootstrap)
         </p>
 
-        <Link
+        {/* <Link
           className="group bg-white hover:bg-red-50 text-lg pl-4 pr-1 hover:pr-4 py-4 transition-all duration-300 border rounded-md uppercase"
           href="https://jetandjess.co.za/TEMP/mca-styleguide/"
           target="_blank"
@@ -48,7 +51,7 @@ export default function multichoiceStyleGuide() {
           <span className="text-2xl opacity-0 group-hover:opacity-100 transition-all duration-300">
             &rsaquo;
           </span>
-        </Link>
+        </Link> */}
 
         <Image
           src="/projects/multichoice-styleguide-design.jpg"

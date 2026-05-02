@@ -29,10 +29,10 @@ export default function valverdeCountryHotel() {
       >
         <BreadcrumbNav projectTitle="Valverde Country Hotel" />
 
-        <h3>All marketing material</h3>
+        <h3>Client marketing material (2002 - 2013)</h3>
         <p className="pb-5">
           Graphic design • Brand identity • Custom responsive WordPress theming
-          • Many E-mail marketing campaigns • 20+ years ago
+          • Many E-mail marketing campaigns
         </p>
 
         <Image
