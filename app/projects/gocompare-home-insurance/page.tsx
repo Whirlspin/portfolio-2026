@@ -68,6 +68,14 @@ export default function goCompareHomeInsurance() {
 
         <div className="flex flex-row flex-wrap gap-9">
           <div className="flex flex-row items-center gap-3">
+            <h5>Double Diamond (design & innovation process)</h5>
+            <Tooltip
+              tooltiptext="Double Diamond"
+              imageSrc="/projects/inquba-double-diamond.svg"
+              altText="Double Diamond process"
+            />
+          </div>
+          <div className="flex flex-row items-center gap-3">
             <h5>Research and documentation</h5>
             <Tooltip
               tooltiptext="Google Analytics"
