@@ -20,11 +20,11 @@ export default function ParallaxHeader({
   });
 
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-  const y = useTransform(scrollYProgress, [0, 1], [2, -2 * 200]);
-  const arrow = useTransform(scrollYProgress, [0, 1], [1, 1 * 250]);
+  const y = useTransform(scrollYProgress, [0, 1], [2, -2 * 100]);
+  const arrow = useTransform(scrollYProgress, [0, 1], [1, 8 * 150]);
 
   return (
-    <div ref={ref} className="relative h-[120vh] -mt-23">
+    <div ref={ref} className="relative h-[180vh] -mt-23">
       <div
         className="sticky w-full h-screen bg-cover bg-center top-0"
         style={{

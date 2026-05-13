@@ -23,7 +23,10 @@ export default function inQuba() {
         subheading="inQuba"
         heading="Customer journey mapping software"
       />
-      <main className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28" id="main">
+      <main
+        className="container mx-auto max-w-4xl px-6 lg:px-0 py-16 md:py-28"
+        id="main"
+      >
         <BreadcrumbNav projectTitle="inQuba: Customer journey mapping software" />
         <h3>About the role</h3>
         <p className="mb-5!">
@@ -448,6 +451,16 @@ export default function inQuba() {
           alt="inQuba journey"
           className="border border-stone-200 rounded-2xl mb-4"
         />
+
+        <div className="lg:w-9/12 mx-auto">
+          <p>
+            After many iterations I was able to capture a vision of what a user
+            journey for a credit card application should look like on the
+            platform. Satisfying the business, users, the sales team, business
+            analysts and developers.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Image
             src="/projects/inquba-ui-start.png"
@@ -477,6 +490,11 @@ export default function inQuba() {
             alt="inQuba - old journey model"
             className="rounded-lg border border-stone-200"
           />
+        </div>
+        <div className="lg:w-9/12 mx-auto pt-4">
+          <p className="text-center">
+            Product vision work for the inQuba platform.
+          </p>
         </div>
       </section>
 

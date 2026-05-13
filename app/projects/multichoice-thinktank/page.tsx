@@ -58,7 +58,6 @@ export default function multichoiceThinkTank() {
         id="main"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          {/* Mobile view  */}
           <Image
             src="/projects/multichoice-thinktank-mobile.jpg"
             width={960}
@@ -72,11 +71,13 @@ export default function multichoiceThinkTank() {
               height={750}
               alt="MultiChoice ThinkTank logos"
             />
-            <figcaption className="text-center -mt-18">
+            <figcaption className="text-center -mt-18 hidden lg:block">
               <h5>Early logo design options.</h5>
             </figcaption>
           </figure>
+        </div>
 
+        <div className="grid grid-cols-1 lg:grid-cols-2 mb-7">
           <figure>
             <Image
               src="/projects/multichoice-thinktank-prizes.jpg"
@@ -84,18 +85,43 @@ export default function multichoiceThinkTank() {
               height={954}
               alt="MultiChoice ThinkTank prizes"
             />
-            <figcaption className="text-center -mt-14">
+            <figcaption className="text-center -mt-14 hidden lg:block">
               <h5>Some of the prizes to be won.</h5>
             </figcaption>
           </figure>
 
-          <Image
-            src="/projects/multichoice-thinktank-poster.jpg"
-            width={960}
-            height={954}
-            alt="MultiChoice ThinkTank prizes"
-          />
+          <figure>
+            <Image
+              src="/projects/multichoice-thinktank-poster.jpg"
+              width={960}
+              height={954}
+              alt="MultiChoice ThinkTank prizes"
+            />
+            <figcaption className="text-center -mt-14 hidden lg:block">
+              <h5 className="text-white!">ThinkTank poster design</h5>
+            </figcaption>
+          </figure>
+        </div>
 
+        <div className="grid grid-cols-1 mb-8">
+          <figure>
+            <Image
+              src="/projects/multichoice-thinktank-royal-icons.png"
+              width={1440}
+              height={794}
+              quality={100}
+              alt="MultiChoice ThinkTank royal icons"
+            />
+            <figcaption className="text-center -mt-14 hidden lg:block">
+              <h5 className="text-white!">
+                3D design for the ranking system users could achieve. "E" for
+                Emperor, "K" for King...
+              </h5>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           <Image
             src="/projects/multichoice-thinktank-lightbulb.jpg"
             width={959}

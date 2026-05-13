@@ -28,17 +28,19 @@ export default function multichoiceDstvWebsiteRedesign() {
         id="main"
       >
         <BreadcrumbNav projectTitle=" MultiChoice: DStv Self Service website redesign" />
-        <h3>Usability Challenges</h3>
+        <h3>Introduction</h3>
         <p className="mb-5!">
-          The original Self Service website was not meeting the needs of users
-          or the organisation, plagued by a confusing information structure,
-          scattered content, and alarmingly slow page load times.
+          The original Self-Service website was failing to meet the needs of
+          both users and the organisation. It suffered from a confusing
+          information architecture, fragmented content, and painfully slow page
+          load times.
         </p>
         <p>
-          Through a comprehensive UX audit that included both qualitative and
-          quantitative research, we analysed and documented various user
-          behaviors. This groundwork laid a strong foundation for understanding
-          user needs, leading to a user-centered design approach.
+          To address these challenges, we carried out a comprehensive UX audit
+          combining qualitative and quantitative research. By analysing and
+          documenting real user behaviours, we built a clear picture of their
+          needs and pain points. This research became the foundation for a truly
+          user-centred design approach.
         </p>
         <h3>Summary of findings</h3>
         <ul className="mb-10">
@@ -101,7 +103,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           alt="DStv Self Service website load times"
         />
       </main>
-
       {/* Content is King  */}
       <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <h3>Content is King</h3>
@@ -262,7 +263,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           </div>
         </div>
       </section>
-
       <section className="lg:bg-[url('/projects/multichoice-dstv-wireframe.webp')] bg-cover bg-right bg-no-repeat lg:h-[645px] w-full flex items-center justify-left ">
         <div className="hidden lg:block max-w-xl p-8">
           <h3>Test early and often</h3>
@@ -273,7 +273,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           </p>
         </div>
       </section>
-
       {/* Iconography  */}
       <div className="bg-[#00508F] p-12 flex items-center justify-center flex-wrap text-center gap-4 mb-16 md:mb-28">
         <h6 className="text-white!">
@@ -340,7 +339,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           alt="Up down arrows"
         />
       </div>
-
       <section className="container mx-auto max-w-4xl px-6 lg:px-0 mb-16 md:mb-28">
         <h3>Outcomes</h3>
         <div className="grid grid-cols-1 md:grid-cols-2">
@@ -357,7 +355,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           </ul>
         </div>
       </section>
-
       <div className="container mx-auto max-w-6xl px-6 lg:px-0 mb-14">
         <Image
           src="/projects/multichoice-dstv-redesign-product-page.jpg"
@@ -366,7 +363,6 @@ export default function multichoiceDstvWebsiteRedesign() {
           alt="Product page"
         />
       </div>
-
       <Image
         src="/projects/multichoice-dstv-redesign-accounts-page.jpg"
         width={1920}
@@ -374,9 +370,7 @@ export default function multichoiceDstvWebsiteRedesign() {
         alt="Accounts page"
         className="w-full h-auto mb-16"
       />
-
       <CategoryListingFooter categoryChoose="UI/UX" />
-
       <Footer />
     </>
   );

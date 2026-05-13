@@ -20,7 +20,7 @@ export default function infiniteGrace() {
       <Logo />
       <ParallaxHeader
         headerImage="/projects/infinite-grace-masthead.webp"
-        subheading="Infinite Grace"
+        subheading="Infinite Grace & YBK Consulting"
         heading=" A full turnkey solution"
       />
 
@@ -28,7 +28,7 @@ export default function infiniteGrace() {
         className="container mx-auto max-w-4xl px-6 lg:px-0 pb-4 pt-16 md:py-28"
         id="main"
       >
-        <BreadcrumbNav projectTitle="Infinite Grace" />
+        <BreadcrumbNav projectTitle="Infinite Grace & YBK Consulting" />
         <p className="mb-5!">
           Infinite Grace, formerly known as "Strokes of Grace", narrates the
           incredible journey of Yvonne Kgame as she triumphs over a
@@ -44,9 +44,9 @@ export default function infiniteGrace() {
 
         <h3>Freelance work</h3>
         <p className="pb-5">
-          Design & content publishing • E-mail marketing (MailChimp) • WordPress
-          (Valenti Magazine WordPress Theme) • Domain, E-mail & hosting • SEO
-          basics
+          All design & content publishing • E-mail marketing (MailChimp) •
+          WordPress (Valenti Magazine WordPress Theme & BeTheme) • Domain,
+          E-mail & hosting • SEO basics
         </p>
 
         <Link
