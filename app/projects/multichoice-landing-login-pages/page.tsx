@@ -36,10 +36,10 @@ export default function multichoiceLandingLoginPages() {
           all the applications that are released for the MultiChoice operational
           departments and verified technicians across the continent.
         </p>
-        <h3>Individual exercise</h3>
+        <h3>Individual exercise (concept to completion)</h3>
         <p className="pb-5">
-          Original design • Frontend development - HTML5, CSS (Bootstrap) &
-          jQuery • Brand (logo) identity
+          Original design & 3D execution • Frontend development - HTML5, CSS
+          (Bootstrap) & jQuery • Brand (logo) identity
         </p>
 
         <Link

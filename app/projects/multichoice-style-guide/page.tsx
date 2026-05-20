@@ -28,7 +28,7 @@ export default function multichoiceStyleGuide() {
       >
         <BreadcrumbNav projectTitle="MultiChoice: Department style guide" />
         <small className="uppercase font-semibold text-stone-500">
-          MultiChoice Africa. Randburg, South Africa: 2013 - 2018
+          Randburg, South Africa: 2013 - 2018
         </small>
         <p>
           The department style guide is a simple and to the point resource for

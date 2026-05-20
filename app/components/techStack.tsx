@@ -114,6 +114,12 @@ export default function TechStack() {
             />
 
             <Tooltip
+              tooltiptext="Microsoft Clarity"
+              imageSrc="/tech-stack-microsoft-clarity.png"
+              altText="Microsoft Clarity"
+            />
+
+            <Tooltip
               tooltiptext="Github"
               imageSrc="/tech-stack-github.svg"
               altText="Github"
