@@ -36,7 +36,7 @@ export default function HomepageIntro() {
             transition={{ duration: 0.8, delay: 0.5, ease: "backOut" }}
           >
             <Image
-              priority={true}
+              preload={true}
               src="/jetsetter.jpg"
               alt="Jethro Edwards surrounded by nature"
               width={524}

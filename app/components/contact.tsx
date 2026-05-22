@@ -37,9 +37,8 @@ export default function Contact() {
           {/* TopTal badge  */}
           <div className="mx-auto w-full flex justify-center mb-8 md:mb-32">
             <a
-              href="https://www.toptal.com/designers/resume/jethro-edwards"
+              href="https://www.toptal.com/designers/resume/jethro-edwards#on95yl"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <img
                 src="/toptal-badge.png"
