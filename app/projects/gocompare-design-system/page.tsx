@@ -129,6 +129,16 @@ export default function goCompareDesignSystem() {
         />
       </figure>
 
+      <figure className="container mx-auto max-w-7xl px-6 pb-28">
+        <Image
+          className="rounded-lg"
+          src="/projects/goco-design-system-laptop-mock-up.png"
+          width={1280}
+          height={956}
+          alt="Go.Compare laptop mock-up of design system"
+        />
+      </figure>
+
       <CategoryListingFooter categoryChoose="UI/UX" />
 
       <Footer />
