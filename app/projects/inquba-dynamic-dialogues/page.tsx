@@ -84,7 +84,7 @@ export default function inQubaDynamicDialogues() {
 
       {/* Competitor anslysis  */}
       <section className="container max-w-7xl mx-auto px-6 mb-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h3>Competitor analysis</h3>
             <p className="mb-5!">
@@ -114,7 +114,7 @@ export default function inQubaDynamicDialogues() {
 
       {/* First iteration  */}
       <section className="container max-w-7xl mx-auto px-6 mb-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
           <Image
             className="order-2 lg:order-1"
             src="/projects/inquba-dynamic-dialogues-2.png"
@@ -177,7 +177,7 @@ export default function inQubaDynamicDialogues() {
 
       {/* Second iteration  */}
       <section className="container max-w-7xl mx-auto px-6 mb-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
           <div>
             <h3>Second iteration did the trick</h3>
             <p className="mb-5!">
@@ -238,7 +238,7 @@ export default function inQubaDynamicDialogues() {
 
       {/* Extending capabilities */}
       <section className="container max-w-7xl mx-auto px-6 mb-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
           <Image
             className="order-2 lg:order-1"
             src="/projects/inquba-dynamic-dialogues-4.png"

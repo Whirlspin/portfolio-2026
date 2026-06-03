@@ -21,9 +21,9 @@ export default function privacyPolicy() {
         heading="Privacy policy"
       />
       <div className="container mx-auto max-w-4xl px-6 lg:px-0 py-28" id="main">
-        <BreadcrumbNav projectTitle="Privacy policy" />
+        {/* <BreadcrumbNav projectTitle="Privacy policy" /> */}
 
-        <p className="mb-5!">
+        <p className="mb-5! bg-stone-50 inline-block border-l-4 border-stone-300 px-4 py-3">
           <strong>Last updated:</strong> January, 2026. Trowbridge, Wiltshire.
         </p>
         <p className="mb-5!">

@@ -99,16 +99,16 @@ export default function CookieConsentV3() {
                       },
 
                       {
-                        name: "_hjSessionUser_{site_id}",
-                        domain: "Hotjar",
-                        description: "Cookie set by Hotjar",
-                        expiration: "365 days",
+                        name: "_clck",
+                        domain: "Microsoft Clarity",
+                        description: "Cookie set by Microsoft Clarity",
+                        expiration: "-",
                       },
                       {
-                        name: "_hjSession_{site_id}",
-                        domain: "Hotjar",
-                        description: "Cookie set by Hotjar",
-                        expiration: "30 minutes",
+                        name: "CLID, MUID",
+                        domain: "Microsoft Clarity",
+                        description: "Cookie set by Microsoft Clarity",
+                        expiration: "-",
                       },
                       {
                         name: "_va",

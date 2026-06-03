@@ -107,16 +107,22 @@ export default function TechStack() {
               altText="Google Analytics"
             />
 
-            <Tooltip
+            {/* <Tooltip
               tooltiptext="Hotjar"
               imageSrc="/tech-stack-hotjar.svg"
               altText="Hotjar"
-            />
+            /> */}
 
             <Tooltip
               tooltiptext="Microsoft Clarity"
               imageSrc="/tech-stack-microsoft-clarity.png"
               altText="Microsoft Clarity"
+            />
+
+            <Tooltip
+              tooltiptext="Maze - User Testing"
+              imageSrc="/tech-stack-maze.svg"
+              altText="Maze - User Testing"
             />
 
             <Tooltip
