@@ -38,8 +38,7 @@ export default function HomepageIntro() {
           >
             <Image
               src="/jetsetter.jpg"
-              placeholder="blur"
-              quality={70}
+              preload={true}
               alt="Jethro Edwards surrounded by nature"
               width={524}
               height={524}
