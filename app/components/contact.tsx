@@ -39,6 +39,7 @@ export default function Contact() {
             <a
               href="https://www.toptal.com/designers/resume/jethro-edwards#on95yl"
               target="_blank"
+              title="Verified expert in Design by Toptal"
             >
               <img
                 src="/toptal-badge.png"
