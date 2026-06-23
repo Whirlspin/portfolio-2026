@@ -2,14 +2,19 @@ import Link from "next/link";
 
 export default function Logo() {
   return (
-    <Link className="inline-block relative z-10" id="top" href="/" title="Home">
+    <Link
+      className="inline-block relative z-10 border-transparent focus:border-transparent focus:ring-0"
+      id="top"
+      href="/"
+      title="Home"
+    >
       <svg
         width="117"
         height="83"
         viewBox="0 0 117 83"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="group"
+        className="group border-transparent focus:border-transparent focus:ring-0"
       >
         <path d="M0 0H117L102 83H0V0Z" fill="url(#paint0_linear_469_150)" />
         <path
