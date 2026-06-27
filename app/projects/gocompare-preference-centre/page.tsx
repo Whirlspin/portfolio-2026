@@ -18,7 +18,7 @@ export default function goComparePreferenceCentre() {
     <>
       <Logo />
       <ParallaxHeader
-        headerImage="/projects/goco-preference-masthead.webp"
+        headerImage="/projects/goco-green-masthead.webp"
         subheading="Go.Compare"
         heading="Email settings on the 'Preference Centre'"
       />

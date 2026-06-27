@@ -57,7 +57,14 @@ export default function Projects() {
             <div key={key} className="mx-auto group">
               <Link href={project.href}>
                 <div className="relative rounded">
-                  <Image
+                  {/* <Image
+                    src={project.image}
+                    width={416}
+                    height={300}
+                    alt={project.title}
+                    className="border border-zinc-200 mb-3 rounded scale-100 group-hover:scale-105 transition-transform duration-600"
+                  /> */}
+                  <img
                     src={project.image}
                     width={416}
                     height={300}

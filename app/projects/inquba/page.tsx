@@ -95,7 +95,7 @@ export default function inQuba() {
       </main>
 
       {/* UX approach  */}
-      <section className="w-full bg-stone-100 py-16 md:py-28">
+      <section className="w-full bg-stone-50 py-16 md:py-28">
         <div className="container mx-auto max-w-4xl">
           <h3 className="mb-6 px-6 lg:px-0">Design process</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6 lg:px-0 ">
@@ -184,7 +184,7 @@ export default function inQuba() {
 
       {/* User persona */}
       <section className="container mx-auto max-w-7xl px-6 py-16 md:py-28">
-        <div className="lg:w-9/12 mx-auto">
+        <div className="lg:w-9/12 mx-auto mb-20">
           <h3>User persona</h3>
           <p className="mb-5!">
             Theoretically the role of personas is to help understand the
@@ -201,9 +201,9 @@ export default function inQuba() {
         <Image
           src="/projects/inquba-cx-analyst.svg"
           alt="User persona - CX Analyst"
-          width={238}
-          height={199}
-          className="mx-auto"
+          width={200}
+          height={200}
+          className="mx-auto mb-3"
         />
         <h3 className="text-orange-600! text-center">CX Analyst</h3>
 
@@ -362,9 +362,9 @@ export default function inQuba() {
       </section>
 
       {/* Information architecture (pain point) */}
-      <section className="w-full bg-stone-100 py-16 md:py-28">
+      <section className="w-full bg-stone-50 py-16 md:py-28">
         <div className="container mx-auto max-w-7xl px-6">
-          <div className="lg:w-9/12 mx-auto mb-10">
+          <div className="lg:w-9/12 mx-auto mb-24">
             <h3>Information architecture (pain point)</h3>
             <p className="mb-5!">
               My role centres on crafting intuitive user experiences that let
@@ -414,7 +414,7 @@ export default function inQuba() {
 
       {/* UI guidelines */}
       <section className="container mx-auto max-w-7xl px-6 py-16 md:pt-28 pb-12">
-        <div className="lg:w-9/12 mx-auto">
+        <div className="lg:w-9/12 mx-auto mb-20">
           <h3>UI guidelines</h3>
           <p>
             My goal is to keep things simple and consistent so that it's

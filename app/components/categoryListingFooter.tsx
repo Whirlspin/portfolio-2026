@@ -28,7 +28,7 @@ export default function CategoryListingFooter({
         ).map((project) => (
           <div key={project.href} className="group">
             <Link href={`/${project.href}`}>
-              <Image
+              <img
                 src={project.image}
                 width={416}
                 height={300}

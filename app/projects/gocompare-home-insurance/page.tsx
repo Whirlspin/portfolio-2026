@@ -20,7 +20,7 @@ export default function goCompareHomeInsurance() {
     <>
       <Logo />
       <ParallaxHeader
-        headerImage="/projects/goco-home-masthead.webp"
+        headerImage="/projects/goco-green-masthead.webp"
         subheading="Go.Compare"
         heading="Home insurance question set"
       />
@@ -61,9 +61,8 @@ export default function goCompareHomeInsurance() {
         <p>
           Competitor research • Extensive usability testing of the insurance
           journey • All findings and recommendations documented • Update the
-          insurance journey's design style to Go.Compare's latest version
-          (myself) • Design a new technique to speed the answer process up
-          (myself)
+          insurance journey's design to Go.Compare's latest version (myself) •
+          Design a new technique to speed the answer process up (myself)
         </p>
 
         <div className="flex flex-row flex-wrap gap-9">
@@ -107,8 +106,9 @@ export default function goCompareHomeInsurance() {
         <Image
           src="/projects/goco-home-before-after.png"
           alt="Before and after redesign"
-          width={1082}
-          height={1157}
+          // quality={100}
+          width={1080}
+          height={1242}
         />
       </figure>
 
@@ -169,8 +169,8 @@ export default function goCompareHomeInsurance() {
         <Image
           src="/projects/goco-home-quote-select-edit.png"
           alt="Edit view example"
-          width={856}
-          height={1567}
+          width={636}
+          height={1165}
         />
       </figure>
 
