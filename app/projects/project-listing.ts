@@ -31,7 +31,7 @@ export const ProjectListing = [
 
   {
     client: "Go.Compare",
-    title: "Design system for all insurance question sets",
+    title: "Design system for insurance question sets",
     image: "/projects/projects-goco-design-system.webp",
     description: [
       "Build a comprehensive design system from scratch",

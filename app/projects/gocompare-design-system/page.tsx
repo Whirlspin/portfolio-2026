@@ -20,7 +20,7 @@ export default function goCompareDesignSystem() {
       <ParallaxHeader
         headerImage="/projects/goco-design-system-masthead.webp"
         subheading="Go.Compare"
-        heading="Design system for all insurance question sets"
+        heading="Design system for insurance question sets"
       />
       {/* Introduction  */}
       <main
