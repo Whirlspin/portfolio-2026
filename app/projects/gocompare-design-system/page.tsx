@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "Go Compare's design system • Jethro Edwards' portfolio website",
   description:
     "A simple design system constructed in Figma for all insurance question sets.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: false,
+  },
 };
 
 export default function goCompareDesignSystem() {

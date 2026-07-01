@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     "Go Compare's home insurance journey • Jethro Edwards' portfolio website",
   description:
     "A revision of the home insurance journey (question set) for Go.Compare customers.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: false,
+  },
 };
 
 export default function goCompareHomeInsurance() {

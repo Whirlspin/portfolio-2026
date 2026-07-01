@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "Go Compare's preference centre • Jethro Edwards' portfolio website",
   description:
     "A new feature where customers can manage their marketing communication.",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: false,
+  },
 };
 
 export default function goComparePreferenceCentre() {
